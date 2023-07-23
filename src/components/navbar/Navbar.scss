@@ -1,0 +1,60 @@
+@import "../../utils/variables";
+
+.menu {
+  max-width: 1290px;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  &_header_links_with_text{
+    width: 100%;
+    max-width: 960px;
+  }
+  &_header_links {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    max-height: 80px;
+    height: 100%;
+    width: 100%;
+    max-width: 960px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &_header_link {
+    text-decoration: none;
+    cursor: pointer;
+    color: $font-color;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: $font-family, sans-serif;
+    line-height: 22px;
+  }
+  &_logo img{
+    max-width: 158px;
+    max-height: 150px;
+  }
+  &_header_text{
+    margin-top: 30px;
+    text-align: right;
+    &_first{
+      color:#0063BA;
+      font-family: $font-family, sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 26px;
+    }
+    &_second{
+      margin-top: 10px;
+      color:#019C01;
+      font-family: $font-family, sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+}
