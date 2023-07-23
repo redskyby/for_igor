@@ -153,3 +153,9 @@ yarn-debug.log*
 yarn-error.log*
 
 .idea
+
+#Sass
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
