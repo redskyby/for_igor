@@ -1,5 +1,11 @@
 import React from 'react';
 import Button from "../../utils/button/Button";
+import img from "../../utils/img/imgs_main_page/f1/img.png";
+import img1 from "../../utils/img/imgs_main_page/f1/img(1).png";
+import img2 from "../../utils/img/imgs_main_page/f1/img(2).png";
+import img3 from "../../utils/img/imgs_main_page/f1/img(3).png";
+import img4 from "../../utils/img/imgs_main_page/f1/img(4).png";
+import img5 from "../../utils/img/imgs_main_page/f1/img(5).png";
 
 function MainPage(props) {
     return (
@@ -7,7 +13,8 @@ function MainPage(props) {
             <section>
                 <h1>Как вы будете действовать в чрезвычайных ситуациях</h1>
                 <h2>Цель проекта <span>HAND:</span></h2>
-                <p>Формирование, на основе виртуального опыта и переживаний, знаний и навыков направленных на обдуманное, грамотное и предсказуемое поведение и действия при чрезвычайных проишествиях и ДТП.</p>
+                <p>Формирование, на основе виртуального опыта и переживаний, знаний и навыков направленных на
+                    обдуманное, грамотное и предсказуемое поведение и действия при чрезвычайных проишествиях и ДТП.</p>
             </section>
             <section>
                 <h2>Готовы ли вы?</h2>
@@ -17,8 +24,15 @@ function MainPage(props) {
                 </div>
             </section>
             <section>
-                <div></div>
-                <Button type="button" placeholder="скачать игру" name="Скачать игру"/>
+                <div>
+                    <img src={img} alt="img"/>
+                    <img src={img1} alt="img"/>
+                    <img src={img2} alt="img"/>
+                    <img src={img3} alt="img"/>
+                    <img src={img4} alt="img"/>
+                    <img src={img5} alt="img"/>
+                    <Button type="button" placeholder="скачать игру" name="Скачать игру"/>
+                </div>
             </section>
         </main>
     );
