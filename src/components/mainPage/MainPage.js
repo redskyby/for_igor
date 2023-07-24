@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from "../../utils/button/Button";
 
 function MainPage(props) {
     return (
@@ -17,7 +18,7 @@ function MainPage(props) {
             </section>
             <section>
                 <div></div>
-
+                <Button type="button" placeholder="скачать игру" name="Скачать игру"/>
             </section>
         </main>
     );
