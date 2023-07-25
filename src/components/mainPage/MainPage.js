@@ -64,7 +64,7 @@ function MainPage(props) {
                 </div>
             </section>
             <section>
-                <video  controls="controls" poster={video}>
+                <video controls="controls" poster={video}>
                     <source src="" type=""/>
                     Тег video не поддерживается вашим браузером.
                 </video>
