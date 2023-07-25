@@ -10,9 +10,13 @@ import img30 from "../../utils/img/imgs_main_page/f2/image30.png";
 import img31 from "../../utils/img/imgs_main_page/f2/image31.png";
 import img32 from "../../utils/img/imgs_main_page/f2/image32.png";
 import video from "../../utils/img/imgs_main_page/f3/video.png";
-import banner from "../../utils/img/imgs_main_page/f4/banner.png";
+import card1 from "../../utils/img/imgs_main_page/f5/card1.png";
+import card2 from "../../utils/img/imgs_main_page/f5/card2.png";
+import card3 from "../../utils/img/imgs_main_page/f5/card2.png";
+import card4 from "../../utils/img/imgs_main_page/f5/card3.png";
 
-function MainPage(props) {
+
+function MainPage() {
     return (
         <main>
             <section>
@@ -95,10 +99,22 @@ function MainPage(props) {
             <section>
                 <h2>Интересные источники</h2>
                 <div>
-                    <img src="" alt=""/>
-                    <img src="" alt=""/>
-                    <img src="" alt=""/>
-                    <img src="" alt=""/>
+                    <div>
+                        <img src={card1} alt="Статистика аварийности"/>
+                        <p>Статистика аварийности</p>
+                    </div>
+                    <div>
+                        <img src={card2} alt="Сайт МЧС РБ"/>
+                        <p>Сайт МЧС РБ</p>
+                    </div>
+                    <div>
+                        <img src={card3} alt="Сайт МВД РБ"/>
+                        <p>Сайт МВД РБ</p>
+                    </div>
+                    <div>
+                        <img src={card4} alt="Проект ”Мой ключ”"/>
+                        <p>Проект <br/>”Мой ключ”</p>
+                    </div>
                 </div>
             </section>
         </main>
