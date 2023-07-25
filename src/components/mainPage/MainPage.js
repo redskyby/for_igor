@@ -10,6 +10,7 @@ import img30 from "../../utils/img/imgs_main_page/f2/image30.png";
 import img31 from "../../utils/img/imgs_main_page/f2/image31.png";
 import img32 from "../../utils/img/imgs_main_page/f2/image32.png";
 import video from "../../utils/img/imgs_main_page/f3/video.png";
+import banner from "../../utils/img/imgs_main_page/f4/banner.png";
 
 function MainPage(props) {
     return (
@@ -67,6 +68,38 @@ function MainPage(props) {
                     <source src="" type=""/>
                     Тег video не поддерживается вашим браузером.
                 </video>
+            </section>
+            <section>
+                <div>
+                    <form action="">
+                        <h1>Ваше мнение по проекту</h1>
+
+                    </form>
+                </div>
+                <div>
+                    <p>Автор проекта</p>
+                    <p>«Help And Not Die»</p>
+                    <h2>Олег</h2>
+                    <h2>Башун</h2>
+                </div>
+                <div>
+                    <div>
+                        <p>Отвечаю онлайн</p>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                    </div>
+                    <a href="https://AlehBashun@gmail.com">AlehBashun@gmail.com</a>
+                </div>
+            </section>
+            <section>
+                <h2>Интересные источники</h2>
+                <div>
+                    <img src="" alt=""/>
+                    <img src="" alt=""/>
+                    <img src="" alt=""/>
+                    <img src="" alt=""/>
+                </div>
             </section>
         </main>
     );
