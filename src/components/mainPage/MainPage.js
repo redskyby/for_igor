@@ -89,9 +89,9 @@ function MainPage() {
                 <div>
                     <div>
                         <p>Отвечаю онлайн</p>
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
+                        <a href="/"></a>
+                        <a href="/"></a>
+                        <a href="/"></a>
                     </div>
                     <a href="https://AlehBashun@gmail.com">AlehBashun@gmail.com</a>
                 </div>
