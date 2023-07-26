@@ -1,0 +1,33 @@
+.first_section {
+  max-width: 1290px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.second_section {
+  max-width: 1290px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.third_section_with_video {
+  max-width: 1960px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.fourth_section {
+  max-width: 1960px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.fifth_section {
+  max-width: 1290px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=MainPage.css.map */
