@@ -46,11 +46,10 @@
   }
 
   &_block2 h2 {
-    font-family: Raleway;
+    font-family: $font-family, sans-serif;
     font-size: 30px;
     font-weight: 300;
     line-height: 39px;
-    letter-spacing: 0em;
     text-align: left;
   }
 
@@ -63,7 +62,7 @@
   &_with_img {
     display: flex;
     flex-direction: row;
-    align-items: end;
+    align-items: flex-end;
     justify-content: space-between;
 
     img {
