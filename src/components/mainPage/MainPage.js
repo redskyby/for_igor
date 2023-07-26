@@ -1,4 +1,5 @@
 import React from 'react';
+import "./MainPage.css";
 import Button from "../../utils/button/Button";
 import img from "../../utils/img/imgs_main_page/f1/img.png";
 import img1 from "../../utils/img/imgs_main_page/f1/img(1).png";
@@ -19,20 +20,22 @@ import card4 from "../../utils/img/imgs_main_page/f5/card3.png";
 function MainPage() {
     return (
         <main>
-            <section>
-                <h1>Как вы будете действовать в чрезвычайных ситуациях</h1>
-                <h2>Цель проекта <span>HAND:</span></h2>
-                <p>Формирование, на основе виртуального опыта и переживаний, знаний и навыков направленных на
-                    обдуманное, грамотное и предсказуемое поведение и действия при чрезвычайных проишествиях и ДТП.</p>
-            </section>
-            <section>
-                <h2>Готовы ли вы?</h2>
+            <section className="first_section">
                 <div>
-                    <p>Стань Героем в чрезвычайной ситуации!</p>
-                    <p>Грамотно спасать других и не погибнуть самому!</p>
+                    <h1>Как вы будете действовать в чрезвычайных ситуациях</h1>
+                    <h2>Цель проекта <span>HAND:</span></h2>
+                    <p>Формирование, на основе виртуального опыта и переживаний, знаний и навыков направленных на
+                        обдуманное, грамотное и предсказуемое поведение и действия при чрезвычайных проишествиях и
+                        ДТП.</p>
                 </div>
-            </section>
-            <section>
+                <div>
+                    <h2>Готовы ли вы?</h2>
+                    <div>
+                        <p>Стань Героем в чрезвычайной ситуации!</p>
+                        <p>Грамотно спасать других и не погибнуть самому!</p>
+                    </div>
+                </div>
+
                 <div>
                     <img src={img} alt="img"/>
                     <img src={img1} alt="img"/>
@@ -43,7 +46,7 @@ function MainPage() {
                     <Button type="button" placeholder="скачать игру" name="Скачать игру"/>
                 </div>
             </section>
-            <section>
+            <section className="second_section">
                 <h2>Ознакомительная версия игры</h2>
                 <div>
                     <img src={img30} alt=""/>
@@ -67,13 +70,13 @@ function MainPage() {
                     </div>
                 </div>
             </section>
-            <section>
+            <section className="third_section_with_video">
                 <video controls="controls" poster={video}>
                     <source src="" type=""/>
                     Тег video не поддерживается вашим браузером.
                 </video>
             </section>
-            <section>
+            <section className="fourth_section">
                 <div>
                     <form action="">
                         <h1>Ваше мнение по проекту</h1>
@@ -96,7 +99,7 @@ function MainPage() {
                     <a href="https://AlehBashun@gmail.com">AlehBashun@gmail.com</a>
                 </div>
             </section>
-            <section>
+            <section className="fifth_section">
                 <h2>Интересные источники</h2>
                 <div>
                     <div>
