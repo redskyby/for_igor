@@ -21,28 +21,32 @@ function MainPage() {
     return (
         <main>
             <section className="first_section">
-                <div>
-                    <h1>Как вы будете действовать в чрезвычайных ситуациях</h1>
-                    <h2>Цель проекта <span>HAND:</span></h2>
-                    <p>Формирование, на основе виртуального опыта и переживаний, знаний и навыков направленных на
-                        обдуманное, грамотное и предсказуемое поведение и действия при чрезвычайных проишествиях и
-                        ДТП.</p>
-                </div>
-                <div>
-                    <h2>Готовы ли вы?</h2>
-                    <div>
-                        <p>Стань Героем в чрезвычайной ситуации!</p>
-                        <p>Грамотно спасать других и не погибнуть самому!</p>
+                <div className="first_section_block1">
+                    <div className="first_section_block1_right">
+                        <h1>Как вы будете действовать в чрезвычайных ситуациях</h1>
+                        <h2>Цель проекта <span>HAND:</span></h2>
+                        <p className="first_section_text">Формирование, на основе виртуального опыта и переживаний,
+                            знаний и навыков направленных на
+                            обдуманное, грамотное и предсказуемое поведение и действия при чрезвычайных проишествиях и
+                            ДТП.</p>
+                    </div>
+                    <div className="first_section_block2">
+                        <h2>Готовы ли вы?</h2>
+                        <div>
+                            <p className="first_section_text">Стань Героем в чрезвычайной ситуации!</p>
+                            <p className="first_section_text">Грамотно спасать других и не погибнуть самому!</p>
+                        </div>
                     </div>
                 </div>
-
-                <div>
-                    <img src={img} alt="img"/>
-                    <img src={img1} alt="img"/>
-                    <img src={img2} alt="img"/>
-                    <img src={img3} alt="img"/>
-                    <img src={img4} alt="img"/>
-                    <img src={img5} alt="img"/>
+                <div className="first_section_with_img_and_button">
+                    <div className="first_section_with_img">
+                        <img src={img} alt="img"/>
+                        <img src={img1} alt="img"/>
+                        <img src={img2} alt="img"/>
+                        <img src={img3} alt="img"/>
+                        <img src={img4} alt="img"/>
+                        <img src={img5} alt="img"/>
+                    </div>
                     <Button type="button" placeholder="скачать игру" name="Скачать игру"/>
                 </div>
             </section>
