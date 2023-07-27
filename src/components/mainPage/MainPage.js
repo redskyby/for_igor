@@ -22,7 +22,7 @@ function MainPage() {
         <main>
             <section className="first_section">
                 <div className="first_section_block1">
-                    <div className="first_section_block1_right">
+                    <div className="first_section_block1_left">
                         <h1>Как вы будете действовать в чрезвычайных ситуациях</h1>
                         <h2>Цель проекта <span>HAND:</span></h2>
                         <p className="first_section_text">Формирование, на основе виртуального опыта и переживаний,
@@ -30,9 +30,9 @@ function MainPage() {
                             обдуманное, грамотное и предсказуемое поведение и действия при чрезвычайных проишествиях и
                             ДТП.</p>
                     </div>
-                    <div className="first_section_block2">
+                    <div className="first_section_block2_right">
                         <h2>Готовы ли вы?</h2>
-                        <div>
+                        <div className="first_section_block2_right_text">
                             <p className="first_section_text">Стань Героем в чрезвычайной ситуации!</p>
                             <p className="first_section_text">Грамотно спасать других и не погибнуть самому!</p>
                         </div>

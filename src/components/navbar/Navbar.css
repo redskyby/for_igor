@@ -32,6 +32,7 @@
   line-height: 22px;
 }
 .menu_logo img {
+  margin-left: 10px;
   max-width: 158px;
   max-height: 150px;
 }
