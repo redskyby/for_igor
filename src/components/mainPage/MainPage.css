@@ -55,7 +55,8 @@
 .first_section_block2_right_text {
   border: 1px solid #FFFFFF;
   border-radius: 20px 0 0 20px;
-  height: 110px;
+  max-height: 110px;
+  height: 100%;
   background-color: #FFFFFF;
   margin-top: 115px;
   display: flex;
@@ -67,7 +68,7 @@
 .first_section_block2_right_text::before {
   position: absolute;
   content: "";
-  height: 110px;
+  height: 100%;
   background-color: #FFFFFF;
   width: 100%;
   left: 100%;
@@ -79,6 +80,8 @@
 .first_section_with_img_and_button {
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
+  margin-left: 10px;
 }
 .first_section_with_img {
   display: flex;
@@ -90,11 +93,101 @@
   max-width: 190px;
   height: auto;
 }
+.first_section_with_button {
+  margin: 49px auto 0;
+}
 
 .second_section {
   max-width: 1290px;
   width: 100%;
-  margin: 0 auto;
+  height: 851px;
+  margin: 105px auto 0;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+.second_section_with_text_and_button {
+  background-color: #FFFFFF;
+}
+.second_section h2 {
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  margin-top: 96px;
+  background-color: #FFFFFF;
+}
+.second_section_with_img {
+  max-width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #FFFFFF;
+}
+.second_section_with_text {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.second_section_with_text p {
+  background-color: #FFFFFF;
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #212121;
+}
+.second_section_with_text_left {
+  background-color: #FFFFFF;
+  flex-basis: 500px;
+  text-align: left;
+}
+.second_section_with_text_right {
+  background-color: #FFFFFF;
+  flex-basis: 500px;
+  text-align: left;
+}
+.second_section_with_text_right_author {
+  background-color: #FFFFFF;
+  margin-top: 20px;
+}
+.second_section_with_text_right_author p {
+  font-family: Raleway, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: #FFFFFF;
+}
+.second_section_with_button {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  margin-left: 10px;
+}
+.second_section_with_disciple_button {
+  background-color: #FFFFFF;
+  margin-top: 30px;
+}
+.second_section_with_disciple_button p {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  background-color: #FFFFFF;
 }
 
 .third_section_with_video {

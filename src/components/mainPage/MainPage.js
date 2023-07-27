@@ -47,28 +47,40 @@ function MainPage() {
                         <img src={img4} alt="img"/>
                         <img src={img5} alt="img"/>
                     </div>
-                    <Button type="button" placeholder="скачать игру" name="Скачать игру"/>
+                    <div className="first_section_with_button">
+                    <Button  type="button" placeholder="скачать игру" name="Скачать игру"/>
+                    </div>
                 </div>
             </section>
             <section className="second_section">
                 <h2>Ознакомительная версия игры</h2>
-                <div>
+                <div className="second_section_with_img">
                     <img src={img30} alt=""/>
                     <img src={img31} alt=""/>
                     <img src={img32} alt=""/>
                 </div>
-                <div>
-                    <p>Содержание игры, кроме получения необходимых в реальной жизни навыков и знаний, может привлечь
-                        аудиторию новизной и неординарностью событий и переживаний, решением сложных и серьёзных задач
-                        имевших место в реальной жизни.</p>
-                    <div>
-                        <p>На данный момент проект в разработке. Дорабатывается игра по обучению действиям при
-                            чрезвычайных проишествиях и ДТП.</p>
-                        <p>Автор проекта Башун Олег Гарикович</p>
-                        <p>Все права защищены</p>
+                <div className="second_section_with_text_and_button">
+                    <div className="second_section_with_text">
+                        <div className="second_section_with_text_left">
+                            <p>Содержание игры, кроме получения необходимых в реальной жизни навыков и знаний, может
+                                привлечь
+                                аудиторию новизной и неординарностью событий и переживаний, решением сложных и серьёзных
+                                задач
+                                имевших место в реальной жизни.</p>
+                        </div>
+                        <div className="second_section_with_text_right">
+                            <p>На данный момент проект в разработке. Дорабатывается игра по обучению действиям при
+                                чрезвычайных проишествиях и ДТП.</p>
+                            <div className="second_section_with_text_right_author">
+                                <p>Автор проекта Башун Олег Гарикович</p>
+                                <p>Все права защищены</p>
+                            </div>
+                        </div>
                     </div>
-                    <Button type="button" placeholder="скачать игру" name="Скачать игру"/>
-                    <div>
+                    <div className="second_section_with_button">
+                        <Button type="button" placeholder="скачать игру" name="Скачать игру"/>
+                    </div>
+                    <div className="second_section_with_disciple_button">
                         <p>Скачать «Hand Game 09 2020» в архиве (rar.78Mb)</p>
                         <p>ссайта файлообменника ru.files.fm</p>
                     </div>
