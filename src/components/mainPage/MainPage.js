@@ -15,6 +15,7 @@ import card1 from "../../utils/img/imgs_main_page/f5/card1.png";
 import card2 from "../../utils/img/imgs_main_page/f5/card2.png";
 import card3 from "../../utils/img/imgs_main_page/f5/card2.png";
 import card4 from "../../utils/img/imgs_main_page/f5/card3.png";
+import Form from "./form/Form";
 
 
 function MainPage() {
@@ -93,26 +94,28 @@ function MainPage() {
                 </video>
             </section>
             <section className="fourth_section">
-                <div>
-                    <form action="">
-                        <h1>Ваше мнение по проекту</h1>
-
-                    </form>
+                <div className="container">
+                <div className="fourth_section_with_form">
+                    <h1>Ваше мнение по проекту</h1>
+                    <Form/>
                 </div>
-                <div>
-                    <p>Автор проекта</p>
-                    <p>«Help And Not Die»</p>
-                    <h2>Олег</h2>
-                    <h2>Башун</h2>
-                </div>
-                <div>
-                    <div>
-                        <p>Отвечаю онлайн</p>
-                        {/*<a href="/"></a>*/}
-                        {/*<a href="/"></a>*/}
-                        {/*<a href="/"></a>*/}
+                    <div className="fourth_section_with_text">
+                        <div>
+                            <p>Автор проекта</p>
+                            <p>«Help And Not Die»</p>
+                            <h2>Олег</h2>
+                            <h2>Башун</h2>
+                        </div>
+                        <div>
+                            <div>
+                                <p>Отвечаю онлайн</p>
+                                {/*<a href="/"></a>*/}
+                                {/*<a href="/"></a>*/}
+                            {/*<a href="/"></a>*/}
+                        </div>
+                        <a href="https://AlehBashun@gmail.com">AlehBashun@gmail.com</a>
                     </div>
-                    <a href="https://AlehBashun@gmail.com">AlehBashun@gmail.com</a>
+                </div>
                 </div>
             </section>
             <section className="fifth_section">
