@@ -95,10 +95,10 @@ function MainPage() {
             </section>
             <section className="fourth_section">
                 <div className="container">
-                <div className="fourth_section_with_form">
-                    <h1>Ваше мнение по проекту</h1>
-                    <Form/>
-                </div>
+                    <div className="fourth_section_with_form">
+                        <h1>Ваше мнение по проекту</h1>
+                        <Form/>
+                    </div>
                     <div className="fourth_section_with_text">
                         <div>
                             <p>Автор проекта</p>
@@ -111,11 +111,11 @@ function MainPage() {
                                 <p>Отвечаю онлайн</p>
                                 {/*<a href="/"></a>*/}
                                 {/*<a href="/"></a>*/}
-                            {/*<a href="/"></a>*/}
+                                {/*<a href="/"></a>*/}
+                            </div>
+                            <a href="https://AlehBashun@gmail.com">AlehBashun@gmail.com</a>
                         </div>
-                        <a href="https://AlehBashun@gmail.com">AlehBashun@gmail.com</a>
                     </div>
-                </div>
                 </div>
             </section>
             <section className="fifth_section">
