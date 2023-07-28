@@ -15,6 +15,10 @@ import card1 from "../../utils/img/imgs_main_page/f5/card1.png";
 import card2 from "../../utils/img/imgs_main_page/f5/card2.png";
 import card3 from "../../utils/img/imgs_main_page/f5/card2.png";
 import card4 from "../../utils/img/imgs_main_page/f5/card3.png";
+import telegramm from "../../utils/img/imgs_main_page/f4/telegramm.png";
+import viber from "../../utils/img/imgs_main_page/f4/viber.png";
+import watsapp from "../../utils/img/imgs_main_page/f4/watsapp.png";
+
 import Form from "./form/Form";
 
 
@@ -95,23 +99,30 @@ function MainPage() {
             </section>
             <section className="fourth_section">
                 <div className="container">
+                    <div className="container_with_foto"></div>
                     <div className="fourth_section_with_form">
                         <h1>Ваше мнение по проекту</h1>
                         <Form/>
                     </div>
                     <div className="fourth_section_with_text">
-                        <div>
+                        <div className="fourth_section_with_text_top">
                             <p>Автор проекта</p>
                             <p>«Help And Not Die»</p>
                             <h2>Олег</h2>
                             <h2>Башун</h2>
                         </div>
                         <div>
-                            <div>
+                            <div className="fourth_section_with_text_bottom">
                                 <p>Отвечаю онлайн</p>
-                                {/*<a href="/"></a>*/}
-                                {/*<a href="/"></a>*/}
-                                {/*<a href="/"></a>*/}
+                                <a href="*">
+                                    <img src={telegramm} alt="telegramm"/>
+                                </a>
+                                <a href="*">
+                                    <img src={watsapp} alt="watsapp"/>
+                                </a>
+                                <a href="*">
+                                    <img src={viber} alt="viber"/>
+                                </a>
                             </div>
                             <a href="https://AlehBashun@gmail.com">AlehBashun@gmail.com</a>
                         </div>

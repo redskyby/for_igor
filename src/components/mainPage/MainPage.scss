@@ -248,6 +248,17 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    &_with_foto{
+      position: absolute;
+      background-repeat: no-repeat;
+      background-image: url("../../utils/img/imgs_main_page/f4/photo.png");
+      width: 424px;
+      height: 640px;
+      top: -82px;
+      right: 50px;
+      z-index: 1;
+    }
   }
 
   &_with_form{
@@ -262,8 +273,34 @@
       color: #FFFFFF;
     }
   }
-  &_with_text{
-    margin-right: 350px;
+
+  &_with_text {
+    margin-right: 340px;
+    z-index: 2;
+    &_top {
+      p {
+        color: #FFFFFF;
+        font-family: $font-family, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+
+      h2 {
+        color: #FFFFFF;
+        font-family: $font-family, sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
+    &_bottom{
+
+    }
   }
 }
 
