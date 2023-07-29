@@ -1,0 +1,197 @@
+@import "../../utils/variables";
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+  margin-top: 255px;
+
+  &_first_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    position: relative;
+    max-width: 1290px;
+    margin: 0 auto;
+    max-height: 400px;
+    height: 100%;
+
+    &:before {
+      content: "";
+      max-height: 400px;
+      height: 150%;
+      width: 200%;
+      background: #FFFFFF;
+      position: absolute;
+      top: -20%;
+      left: 18%;
+      border-radius: 20px;
+      z-index: -1;
+    }
+
+    &_with_img {
+      margin-left: 9%;
+
+      img {
+        width: 410px;
+        height: 290px;
+        overflow: hidden;
+      }
+    }
+
+    &_with_text_and_button {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 457px;
+      margin-left: 40px;
+
+      h2 {
+        font-family: $font-family, sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 39px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        span {
+          font-family: $font-family, sans-serif;
+          font-size: 30px;
+          font-weight: 600;
+          line-height: 39px;
+          text-align: left;
+        }
+      }
+    }
+
+    &_with_text {
+      margin-top: 30px;
+
+      &_first {
+        font-family: $font-family, sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #212121;
+      }
+
+      &_second {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-family: $font-family, sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #6C6C6C;
+      }
+    }
+  }
+
+  &_second_section {
+    background-color: #212121;
+    margin-top: 150px;
+    max-height: 400px;
+    height: 100%;
+  }
+
+  .container_first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1290px;
+    margin: 80px auto 0;
+    height: 100%;
+
+    &_block {
+      flex-basis: 410px;
+      border: 1px solid #6C6C6C;
+      border-radius: 20px;
+      text-align: center;
+      height: 190px;
+
+      &_text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+
+        h3 {
+          color: #FFFFFF;
+          font-family: $font-family, sans-serif;
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 23px;
+        }
+
+        &_bottom {
+          margin-top: 15px;
+        }
+
+        &_p {
+          color: #FFFFFF;
+          font-family: $font-family, sans-serif;
+          font-size: 17px;
+          font-weight: 400;
+          line-height: 22px;
+          text-align: center;
+
+        }
+      }
+
+      img {
+        width: 40px;
+        height: 40px;
+      }
+
+      &_telephone {
+        color: #FFFFFF;
+        font-family: $font-family, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .container_second {
+    max-width: 1290px;
+    margin: 60px auto 60px;
+    display: flex;
+    justify-content: space-between;
+
+    &_text p {
+      color: #6C6C6C;
+      font-family: $font-family, sans-serif;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 20px;
+      text-align: left;
+    }
+
+    &_links {
+      background-color: #212121;
+      flex-basis: 762px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &_link {
+      color: #6C6C6C;
+      font-family: $font-family, sans-serif;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 20px;
+      text-align: left;
+      text-decoration: none;
+    }
+  }
+}
