@@ -111,20 +111,24 @@ function MainPage() {
                             <h2>Олег</h2>
                             <h2>Башун</h2>
                         </div>
-                        <div>
-                            <div className="fourth_section_with_text_bottom">
+                        <div className="fourth_section_with_text_bottom">
+                            <div className="fourth_section_with_text_bottom_with_links">
                                 <p>Отвечаю онлайн</p>
-                                <a href="*">
-                                    <img src={telegramm} alt="telegramm"/>
-                                </a>
-                                <a href="*">
-                                    <img src={watsapp} alt="watsapp"/>
-                                </a>
-                                <a href="*">
-                                    <img src={viber} alt="viber"/>
-                                </a>
+                                <div>
+                                    <a href="*">
+                                        <img src={telegramm} alt="telegramm"/>
+                                    </a>
+                                    <a href="*">
+                                        <img src={watsapp} alt="watsapp"/>
+                                    </a>
+                                    <a href="*">
+                                        <img src={viber} alt="viber"/>
+                                    </a>
+                                </div>
                             </div>
-                            <a href="https://AlehBashun@gmail.com">AlehBashun@gmail.com</a>
+                            <div className="fourth_section_with_text_bottom_main_link">
+                            <a href="https://AlehBashun@gmail.com" >AlehBashun@gmail.com</a>
+                            </div>
                         </div>
                     </div>
                 </div>
