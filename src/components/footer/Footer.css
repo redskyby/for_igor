@@ -83,7 +83,6 @@
 .footer_second_section {
   background-color: #212121;
   margin-top: 150px;
-  max-height: 400px;
   height: 100%;
 }
 .footer .container_first {
@@ -94,6 +93,7 @@
   max-width: 1290px;
   margin: 80px auto 0;
   height: 100%;
+  flex-wrap: wrap;
 }
 .footer .container_first_block {
   flex-basis: 410px;

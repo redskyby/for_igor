@@ -95,7 +95,6 @@
   &_second_section {
     background-color: #212121;
     margin-top: 150px;
-    max-height: 400px;
     height: 100%;
   }
 
@@ -107,6 +106,7 @@
     max-width: 1290px;
     margin: 80px auto 0;
     height: 100%;
+    flex-wrap: wrap;
 
     &_block {
       flex-basis: 410px;
