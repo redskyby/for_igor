@@ -1,78 +1,88 @@
 import React from 'react';
 import "./DtpWillHappened.css";
+import Icon_light from "../../utils/img/img_dtpWillHappened/icon_light.png";
 
 function DtpWillHappened() {
     return (
         <div>
-            <section>
+            <section className="first_section">
                 <div className="container">
-                    <h1>Что делать после ДТП</h1>
-                    <div>
-                        <div>
+                    <h1 className="container_title">Что делать после ДТП</h1>
+                    <div className="container_table">
+                        <div className="container_table_left">
                             <div>
-                                <div>
-                                    <img src="" alt=""/>
-                                    <img src="" alt=""/>
+                                <div className="container_table_block">
+                                    <div className="container_table_block_number_and_img">
+                                        <p className="container_table_block_number">1</p>
+                                        <img src={Icon_light} alt="Icon_light" className="container_table_block_img"/>
+                                    </div>
+                                    <h2 className="container_table_block_title">Включить аварийную сигнализацию</h2>
                                 </div>
-                                <h2>Включить аварийную сигнализацию</h2>
-                            </div>
-                            <div>
-                                <div>
-                                    <img src="" alt=""/>
-                                    <img src="" alt=""/>
+                                <div className="container_table_block">
+                                    <div className="container_table_block_number_and_img">
+                                        <p className="container_table_block_number">2</p>
+                                        <img src="" alt=""/>
+                                    </div>
+                                    <div>
+                                        <h2 className="container_table_block_title">Установить знак аварийной
+                                            остановки</h2>
+                                        <p>Он устанавливается на расстоянии не менее 15 метров от транспортного
+                                            стредства в
+                                            населенных
+                                            пунктах и 30 м —вне населенных пунктов</p>
+                                    </div>
                                 </div>
-                                <h2>Установить знак аварийной остановки</h2>
-                                <p>Он устанавливается на расстоянии не менее 15 метров от транспортного стредства в
-                                    населенных
-                                    пунктах и 30 м —вне населенных пунктов</p>
-                            </div>
-                            <div>
                                 <div>
-                                    <img src="" alt=""/>
-                                    <img src="" alt=""/>
+                                    <div>
+                                        <img src="" alt=""/>
+                                        <img src="" alt=""/>
+                                    </div>
+                                    <h2>Осмотреть себя и пассажиров</h2>
+                                    <p>Убедитесь, что с вами, вашими пассажирами, а так же людьми в другой машине все в
+                                        порядке.
+                                        Если люди получили травмы, необходимо немедленно вызвать Скорую помощь и, по по
+                                        возможности,
+                                        оказать первую медицинскую помощь</p>
                                 </div>
-                                <h2>Осмотреть себя и пассажиров</h2>
-                                <p>Убедитесь, что с вами, вашими пассажирами, а так же людьми в другой машине все в
-                                    порядке.
-                                    Если люди получили травмы, необходимо немедленно вызвать Скорую помощь и, по по
-                                    возможности,
-                                    оказать первую медицинскую помощь</p>
-                            </div>
-                            <div>
                                 <div>
-                                    <img src="" alt=""/>
-                                    <img src="" alt=""/>
+                                    <div>
+                                        <img src="" alt=""/>
+                                        <img src="" alt=""/>
+                                    </div>
+                                    <h2>Вызвать Скорую помощь (если это необходимо) и сотрудника ГИБДД</h2>
+                                    <p>(если повреждения автомобилей минимальны, то можно обойтись и без этого)</p>
                                 </div>
-                                <h2>Вызвать Скорую помощь (если это необходимо) и сотрудника ГИБДД</h2>
-                                <p>(если повреждения автомобилей минимальны, то можно обойтись и без этого)</p>
                             </div>
                         </div>
-                    </div>
-                    <div>
-                        <div>
+                        <div className="container_table_right">
                             <div>
-                                <img src="" alt=""/>
-                                <img src="" alt=""/>
+                                <div>
+                                    <div>
+                                        <img src="" alt=""/>
+                                        <img src="" alt=""/>
+                                    </div>
+                                    <h2>Позвонить в свою страховую компанию и сообщить о ДТП</h2>
+                                    <p>Попросите страховую компанию вызвать аварийного комиссара (если подобная услуга
+                                        предоставляется)</p>
+                                </div>
+                                <div>
+                                    <div>
+                                        <img src="" alt=""/>
+                                        <img src="" alt=""/>
+                                    </div>
+                                    <h2>Заполнить бланк извещения о ДТП</h2>
+                                    <p>Лучше всего, если в этом вам поможет аварийный комиссар</p>
+                                </div>
+                                <div>
+                                    <div>
+                                        <img src="" alt=""/>
+                                        <img src="" alt=""/>
+                                    </div>
+                                    <h2>Сфотографировать поврежденные авто со всех строн</h2>
+                                    <p>Постарайтесь, чтобы в кадры попали помимо машин дорожные знаки, сфетофор и так
+                                        далее</p>
+                                </div>
                             </div>
-                            <h2>Позвонить в свою страховую компанию и сообщить о ДТП</h2>
-                            <p>Попросите страховую компанию вызвать аварийного комиссара (если подобная услуга
-                                предоставляется)</p>
-                        </div>
-                        <div>
-                            <div>
-                                <img src="" alt=""/>
-                                <img src="" alt=""/>
-                            </div>
-                            <h2>Заполнить бланк извещения о ДТП</h2>
-                            <p>Лучше всего, если в этом вам поможет аварийный комиссар</p>
-                        </div>
-                        <div>
-                            <div>
-                                <img src="" alt=""/>
-                                <img src="" alt=""/>
-                            </div>
-                            <h2>Сфотографировать поврежденные авто со всех строн</h2>
-                            <p>Постарайтесь, чтобы в кадры попали помимо машин дорожные знаки, сфетофор и так далее</p>
                         </div>
                     </div>
                 </div>
