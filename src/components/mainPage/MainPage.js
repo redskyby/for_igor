@@ -127,7 +127,7 @@ function MainPage() {
                                 </div>
                             </div>
                             <div className="fourth_section_with_text_bottom_main_link">
-                                <a href="https://AlehBashun@gmail.com">AlehBashun@gmail.com</a>
+                                <a href="mailto:AlehBashun@gmail.com">AlehBashun@gmail.com</a>
                             </div>
                         </div>
                     </div>

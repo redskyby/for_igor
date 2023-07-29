@@ -241,7 +241,8 @@
   position: relative;
   background-image: url("../../utils/img/imgs_main_page/f4/banner.png");
   background-size: cover;
-  .container{
+
+  .container {
     max-width: 1290px;
     margin: 100px auto 0;
     display: flex;
@@ -249,7 +250,8 @@
     justify-content: space-between;
     align-items: flex-start;
     position: relative;
-    &_with_foto{
+
+    &_with_foto {
       position: absolute;
       background-repeat: no-repeat;
       background-image: url("../../utils/img/imgs_main_page/f4/photo.png");
@@ -261,9 +263,10 @@
     }
   }
 
-  &_with_form{
+  &_with_form {
     margin-left: 120px;
-    h1{
+
+    h1 {
       font-family: $font-family, sans-serif;
       font-size: 30px;
       font-weight: 600;
@@ -278,6 +281,7 @@
     margin-right: 380px;
     z-index: 2;
     position: relative;
+
     &_top {
       p {
         color: #FFFFFF;
@@ -299,16 +303,19 @@
         text-align: left;
       }
     }
-    &_bottom{
+
+    &_bottom {
       position: absolute;
       bottom: -280%;
       right: -150%;
-      &_with_links{
+
+      &_with_links {
         display: flex;
         flex-direction: row;
         align-items: center;
         margin-bottom: 10px;
-        p{
+
+        p {
           color: #FFFFFF;
           font-family: $font-family, sans-serif;
           font-size: 14px;
@@ -317,24 +324,27 @@
           letter-spacing: 0em;
           margin-right: 15px;
         }
-        a{
+
+        a {
           margin-left: 5px;
         }
       }
-    &_main_link {
-      width: 100%;
-      text-align: center;
-      a{
-        color: #FFFFFF;
-        font-family: $font-family, sans-serif;
-        font-size: 17px;
-        font-weight: 500;
-        line-height: 20px;
-        letter-spacing: 0em;
+
+      &_main_link {
+        width: 100%;
         text-align: center;
-        text-decoration: none;
+
+        a {
+          color: #FFFFFF;
+          font-family: $font-family, sans-serif;
+          font-size: 17px;
+          font-weight: 500;
+          line-height: 20px;
+          letter-spacing: 0em;
+          text-align: center;
+          text-decoration: none;
+        }
       }
-    }
     }
   }
 }
@@ -355,14 +365,16 @@
     line-height: 39px;
     letter-spacing: 0em;
   }
-  &_with_cards{
+
+  &_with_cards {
     margin-top: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  &_card{
+
+  &_card {
     display: flex;
     background-color: #FFFFFF;
     flex-direction: column;
@@ -373,14 +385,17 @@
     justify-content: space-around;
     border: none;
     border-radius: 20px;
-    &:nth-child(2n){
+
+    &:nth-child(2n) {
       margin-top: 40px;
     }
-    img{
+
+    img {
       width: 158px;
       height: 140px;
     }
-    p{
+
+    p {
       text-align: center;
       font-family: $font-family, sans-serif;
       color: #212121;
@@ -389,7 +404,8 @@
       line-height: 22px;
       letter-spacing: 0em;
     }
-    a{
+
+    a {
       font-family: $font-family, sans-serif;
       font-size: 17px;
       font-weight: 400;
@@ -401,10 +417,11 @@
       border: 1px solid #019C01;
       color: #019C01;
       text-decoration: none;
-      &:hover{
+
+      &:hover {
         background: #019C01;
         color: #FFFFFF;
-        transition: background,color  0.9s ease;
+        transition: background, color 0.9s ease;
       }
     }
   }
