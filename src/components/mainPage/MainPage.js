@@ -53,7 +53,7 @@ function MainPage() {
                         <img src={img5} alt="img"/>
                     </div>
                     <div className="first_section_with_button">
-                    <Button  type="button" placeholder="скачать игру" name="Скачать игру"/>
+                        <Button type="button" placeholder="скачать игру" name="Скачать игру"/>
                     </div>
                 </div>
             </section>
@@ -127,7 +127,7 @@ function MainPage() {
                                 </div>
                             </div>
                             <div className="fourth_section_with_text_bottom_main_link">
-                            <a href="https://AlehBashun@gmail.com" >AlehBashun@gmail.com</a>
+                                <a href="https://AlehBashun@gmail.com">AlehBashun@gmail.com</a>
                             </div>
                         </div>
                     </div>
@@ -135,22 +135,26 @@ function MainPage() {
             </section>
             <section className="fifth_section">
                 <h2>Интересные источники</h2>
-                <div>
-                    <div>
+                <div className="fifth_section_with_cards">
+                    <div className="fifth_section_card">
                         <img src={card1} alt="Статистика аварийности"/>
                         <p>Статистика аварийности</p>
+                        <a href="*">Читать</a>
                     </div>
-                    <div>
+                    <div className="fifth_section_card">
                         <img src={card2} alt="Сайт МЧС РБ"/>
                         <p>Сайт МЧС РБ</p>
+                        <a href="*">Перейти</a>
                     </div>
-                    <div>
+                    <div className="fifth_section_card">
                         <img src={card3} alt="Сайт МВД РБ"/>
                         <p>Сайт МВД РБ</p>
+                        <a href="*">Перейти</a>
                     </div>
-                    <div>
+                    <div className="fifth_section_card">
                         <img src={card4} alt="Проект ”Мой ключ”"/>
                         <p>Проект <br/>”Мой ключ”</p>
+                        <a href="*">Посмотреть</a>
                     </div>
                 </div>
             </section>
