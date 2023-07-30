@@ -14,6 +14,7 @@ import Icon6 from "../../utils/img/img_dtpWillHappened/icon(6).png";
 import Icon7 from "../../utils/img/img_dtpWillHappened/icon(7).png";
 import Icon8 from "../../utils/img/img_dtpWillHappened/icon(8).png";
 import Image1 from "../../utils/img/img_dtpWillHappened/image(1).png";
+import Image2 from "../../utils/img/img_dtpWillHappened/image49.png";
 
 function DtpWillHappened() {
     return (
@@ -289,40 +290,47 @@ function DtpWillHappened() {
                             в милицию.</p>
                     </div>
 
-                <div className="fourth_section_dtpWillHappened_container_img">
-                    <img src={Image1} alt="Image1"/>
-                </div>
+                    <div className="fourth_section_dtpWillHappened_container_img">
+                        <img src={Image1} alt="Image1"/>
+                    </div>
                 </div>
             </section>
-            <section>
-                <div>
-                    <img src="" alt=""/>
+            <section className="sixth_section_dtpWillHappened">
+                <div className="sixth_section_dtpWillHappened_with_img">
+                    <img src={Image2} alt="Image2"/>
                 </div>
-                <div>
-                    <h1>Как еще <span>легально</span> покинуть место ДТП?</h1>
-                </div>
-                <div>
-                    <p>Для этого должны одновременно выполняться следующие условия:</p>
-                    <ul>
-                        <li>в ДТП вред причинен только имуществу участников</li>
-                        <li>в аварию попали два ТС, а их водители вправе управлять транспортом соответствующей категории
-                            и не в претензии к физическому состоянию друг друга
-                        </li>
-                        <li>есть действующие договоры обязательного страхования гражданской ответственности владельцев
-                            ТС
-                        </li>
-                        <li>водители согласны с обстоятельствами причинения имущественного вреда, перечнем видимых
-                            повреждений, которые внесены в бланки извещения о ДТП
-                        </li>
-                        <li>повреждения каждой машины оценены на сумму до 400 евро</li>
-                    </ul>
-                    <p>Если одно из этих условий не выполняется, то покидать место ДТП его участники не имеют права.</p>
+                <div className="sixth_section_dtpWillHappened_right_side">
+                    <div className="sixth_section_dtpWillHappened_main_title_h1">
+                        <h1>Как еще <span>легально</span> покинуть место ДТП?</h1>
+                    </div>
                     <div>
-                        <h2>Что грозит нарушителям?</h2>
-                        <p>За оставление водителем места ДТП, когда это запрещено, предусмотрено наказание — штраф от 5
-                            до 25 базовых величин или лишение права управления сроком до 2 лет. Водителя, который
-                            заведомо оставил потерпевшего в опасном для здоровья или жизни состоянии, привлекут к
-                            уголовной ответственности.</p>
+                        <p className="sixth_section_dtpWillHappened_title_text">Для этого должны одновременно
+                            выполняться следующие условия:</p>
+                        <ul className="sixth_section_dtpWillHappened_list">
+                            <li><span>в ДТП вред причинен только имуществу участников</span></li>
+                            <li><span>в аварию попали два ТС, а их водители вправе управлять транспортом соответствующей категории
+                            и не в претензии к физическому состоянию друг друга</span>
+                            </li>
+                            <li><span>есть действующие договоры обязательного страхования гражданской ответственности владельцев
+                            ТС</span>
+                            </li>
+                            <li><span>водители согласны с обстоятельствами причинения имущественного вреда, перечнем видимых
+                            повреждений, которые внесены в бланки извещения о ДТП</span>
+                            </li>
+                            <li><span>повреждения каждой машины оценены на сумму до 400 евро</span></li>
+                        </ul>
+                        <p className="sixth_section_dtpWillHappened_title_text">Если одно из этих условий не
+                            выполняется, то покидать место ДТП его участники не имеют
+                            права.</p>
+                        <div>
+                            <h2 className="sixth_section_dtpWillHappened_main_title_h2">Что грозит нарушителям?</h2>
+                            <p className="sixth_section_dtpWillHappened_title_text">За оставление водителем места ДТП,
+                                когда это запрещено, предусмотрено наказание — штраф
+                                от 5
+                                до 25 базовых величин или лишение права управления сроком до 2 лет. Водителя, который
+                                заведомо оставил потерпевшего в опасном для здоровья или жизни состоянии, привлекут к
+                                уголовной ответственности.</p>
+                        </div>
                     </div>
                 </div>
             </section>

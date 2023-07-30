@@ -281,10 +281,69 @@
 .fourth_section_dtpWillHappened_container_img {
   max-width: 630px;
   width: 100%;
+  background-size: cover;
 }
 .fourth_section_dtpWillHappened_container_img img {
   width: 520px;
   height: 360px;
+}
+
+.sixth_section_dtpWillHappened {
+  margin: 120px auto 0;
+  max-width: 1290px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sixth_section_dtpWillHappened_with_img {
+  width: 520px;
+  height: 325px;
+  background-size: cover;
+}
+.sixth_section_dtpWillHappened_right_side {
+  max-width: 630px;
+  width: 100%;
+}
+.sixth_section_dtpWillHappened_main_title_h1 {
+  font-family: Raleway, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 39px;
+  text-align: left;
+  color: #212121;
+  margin-bottom: 35px;
+}
+.sixth_section_dtpWillHappened_main_title_h1 span {
+  color: #019C01;
+}
+.sixth_section_dtpWillHappened_title_text {
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #3A3A3A;
+}
+.sixth_section_dtpWillHappened_list {
+  list-style-image: url("../../utils/img/img_dtpWillHappened/check.svg");
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  color: #3A3A3A;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.sixth_section_dtpWillHappened_main_title_h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 39px;
+  text-align: left;
+  color: #212121;
 }
 
 /*# sourceMappingURL=DtpWillHappened.css.map */
