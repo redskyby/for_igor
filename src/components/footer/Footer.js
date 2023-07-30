@@ -6,8 +6,13 @@ import Telephone from "../../utils/img/imgs_footer/icon_telephone.png";
 import Email from "../../utils/img/imgs_footer/icon_email.png";
 import Button from "../../utils/button/Button";
 import {NavLink} from "react-router-dom";
+import { animateScroll as scroll } from 'react-scroll';
 
 function Footer() {
+    const scrollToTop = () => {
+        scroll.scrollToTop();
+    };
+
     return (
         <footer className="footer">
             <section className="footer_first_section">
@@ -73,12 +78,12 @@ function Footer() {
                         <p>© Башун Олег Гарикович 2018–2023</p>
                     </div>
                     <div className="container_second_links">
-                        <NavLink className="container_second_link" to={"/"}>Главная</NavLink>
-                        <NavLink className="container_second_link" to={"/dtpWillHappened"}>ДТП, что делать?</NavLink>
-                        <NavLink className="container_second_link" to={"/dtpWithAnimals"}>ДТП с животными</NavLink>
-                        <NavLink className="container_second_link" to={"/medicalSupport"}>Медицинская поомщь при
+                        <NavLink onClick={scrollToTop} className="container_second_link" to={"/"}>Главная</NavLink>
+                        <NavLink onClick={scrollToTop} className="container_second_link" to={"/dtpWillHappened"}>ДТП, что делать?</NavLink>
+                        <NavLink onClick={scrollToTop} className="container_second_link" to={"/dtpWithAnimals"}>ДТП с животными</NavLink>
+                        <NavLink onClick={scrollToTop} className="container_second_link" to={"/medicalSupport"}>Медицинская поомщь при
                             ДТП</NavLink>
-                        <NavLink className="container_second_link" to={"/contacts"}>Контакты</NavLink>
+                        <NavLink onClick={scrollToTop} className="container_second_link" to={"/contacts"}>Контакты</NavLink>
                     </div>
                 </div>
             </section>
