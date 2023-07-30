@@ -8,6 +8,11 @@ import Icon1 from "../../utils/img/img_dtpWillHappened/icon(1).png";
 import Icon2 from "../../utils/img/img_dtpWillHappened/icon(2).png";
 import Icon3 from "../../utils/img/img_dtpWillHappened/icon(3).png";
 import Image from "../../utils/img/img_dtpWillHappened/image.png";
+import Icon4 from "../../utils/img/img_dtpWillHappened/icon(4).png";
+import Icon5 from "../../utils/img/img_dtpWillHappened/icon(5).png";
+import Icon6 from "../../utils/img/img_dtpWillHappened/icon(6).png";
+import Icon7 from "../../utils/img/img_dtpWillHappened/icon(7).png";
+import Icon8 from "../../utils/img/img_dtpWillHappened/icon(8).png";
 
 function DtpWillHappened() {
     return (
@@ -122,21 +127,25 @@ function DtpWillHappened() {
             </section>
             <section className="second_section_dttWillHappened">
                 <div className="second_section_dttWillHappened_container">
-                <h2 className="second_section_dttWillHappened_container_main_title">Для вызова с <span>мобильного телефона</span> воспользуйтесь одним из этих номеров</h2>
-                <div className="second_section_dttWillHappened_row">
-                    <div className="second_section_dttWillHappened_row_block">
-                        <p className="second_section_dttWillHappened_row_block_number">112</p>
-                        <p className="second_section_dttWillHappened_row_block_text">Для вызова с мобильного телефона воспользуйтесь одним из этих номеров</p>
+                    <h2 className="second_section_dttWillHappened_container_main_title">Для вызова с <span>мобильного телефона</span> воспользуйтесь
+                        одним из этих номеров</h2>
+                    <div className="second_section_dttWillHappened_row">
+                        <div className="second_section_dttWillHappened_row_block">
+                            <p className="second_section_dttWillHappened_row_block_number">112</p>
+                            <p className="second_section_dttWillHappened_row_block_text">Для вызова с мобильного
+                                телефона воспользуйтесь одним из этих номеров</p>
+                        </div>
+                        <div className="second_section_dttWillHappened_row_block">
+                            <p className="second_section_dttWillHappened_row_block_number">02</p>
+                            <p className="second_section_dttWillHappened_row_block_text">Для вызова с мобильного
+                                телефона воспользуйтесь одним из этих номеров</p>
+                        </div>
+                        <div className="second_section_dttWillHappened_row_block">
+                            <p className="second_section_dttWillHappened_row_block_number">112</p>
+                            <p className="second_section_dttWillHappened_row_block_text">Для вызова с мобильного
+                                телефона воспользуйтесь одним из этих номеров</p>
+                        </div>
                     </div>
-                    <div className="second_section_dttWillHappened_row_block">
-                        <p className="second_section_dttWillHappened_row_block_number">02</p>
-                        <p className="second_section_dttWillHappened_row_block_text">Для вызова с мобильного телефона воспользуйтесь одним из этих номеров</p>
-                    </div>
-                    <div className="second_section_dttWillHappened_row_block">
-                        <p className="second_section_dttWillHappened_row_block_number">112</p>
-                        <p className="second_section_dttWillHappened_row_block_text">Для вызова с мобильного телефона воспользуйтесь одним из этих номеров</p>
-                    </div>
-                </div>
                     <div className="second_section_dttWillHappened_second_block">
                         <div className="second_section_dttWillHappened_second_block_img">
                             <img src={Image} alt="112"/>
@@ -145,7 +154,7 @@ function DtpWillHappened() {
                             <h3>Дозвонившись в ГАИ, автомобилист должен сообщить оператору следующую информацию</h3>
                             <div>
                                 <ol className="second_section_dttWillHappened_second_block_list">
-                                    <li ><span>Место происшествия:</span>
+                                    <li><span>Место происшествия:</span>
                                         <ul className="second_section_dttWillHappened_second_block_list_list">
                                             <li><span>если ДТП произошло в городе, следует сообщить адрес</span></li>
                                             <li><span>если авария произошла за чертой города, то сообщается название трассы и
@@ -172,60 +181,98 @@ function DtpWillHappened() {
                     </div>
                 </div>
             </section>
-            <section>
-                <h1>Передвигать машины и «отъезжать в сторонку» разрешается только в трех случаях</h1>
-                <div>
-                    <div>
-                        <div>
-                            <img src="" alt=""/>
-                            <img src="" alt=""/>
+            <section className="third_section_dtpWillHappened">
+                <h1 className="third_section_dtpWillHappened_main_title">Передвигать машины и «отъезжать в
+                    сторонку» <span
+                        className="third_section_dtpWillHappened_main_title_subtitle1">разрешается</span> только в трех
+                    случаях <span
+                        className="third_section_dtpWillHappened_main_title_subtitle2">(см. пункт 2.5 ПДД)</span></h1>
+                <div className="container_table">
+                    <div className="container_table_left">
+
+                        <div className="container_table_block">
+                            <div className="container_table_block_number_and_img">
+                                <p className="container_table_block_number">1</p>
+                                <img src={Icon4} alt="Icon4"/>
+                            </div>
+                            <div className="container_table_for_title">
+                                <h2 className="container_table_block_title">Если есть пострадавший, которого надо
+                                    срочно
+                                    доставить в больницу</h2>
+                                <p>а других возможностей для этого нет (после приезда в больницу участник ДТП оязан
+                                    вернуться на
+                                    место аварии и дождаться полиции</p>
+                            </div>
                         </div>
-                        <h2>Если есть пострадавший, которого надо срочно доставить в больницу</h2>
-                        <p>а других возможностей для этого нет (после приезда в больницу участник ДТП оязан вернуться на
-                            место аварии и дождаться полиции</p>
+
+                        <div className="container_table_block">
+                            <div className="container_table_block_number_and_img">
+                                <p className="container_table_block_number">2</p>
+                                <img src={Icon5} alt="Icon5"/>
+                            </div>
+                            <div className="container_table_for_title">
+                                <h2 className="container_table_block_title">Если машины в результате аварии</h2>
+                                <p>полностью перекрыли движение (в этом случае вы можете отъехать в сторону)</p>
+                            </div>
+                        </div>
+
+
+                        <div className="container_table_block">
+                            <div className="container_table_block_number_and_img">
+                                <p className="container_table_block_number">3</p>
+                                <img src={Icon6} alt="Icon6"/>
+                                <img src="" alt=""/>
+                            </div>
+                            <div className="container_table_for_title">
+                                <h2 className="container_table_block_title">Если все участники аварии согласны с
+                                    обстоятельствами ДТП</h2>
+                                <p>и нет пострадавших, то можно приехать на пост ГИБДД и там заявить об аварии (пункт
+                                    2.6 ПДД).
+                                    До этого момента участники аварии должны составить подробную схему ДТП с описанием
+                                    всех
+                                    обстоятельств аварии (время, видимость, погодные условия и так далее), подписать ее
+                                    и
+                                    сделать фото и видео съемку</p>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <div>
-                            <img src="" alt=""/>
-                            <img src="" alt=""/>
+
+
+                    <div className="container_table_right right_table_in_second_section_dtpWillHappened">
+                        <div className="container_table_block">
+                            <div className="container_table_block_number_and_img">
+                                <img src={Icon7} alt="Icon7"/>
+                            </div>
+                            <div className="container_table_for_title">
+                                <h2 className="container_table_block_title"><span
+                                    className="right_table_in_second_section_dtpWillHappened_span">Важно</span></h2>
+                                <p>если при ДТП вас начинают запугивать, шантажировать, угрожать и предлагают решить
+                                    вопрос на
+                                    месте, конпенсировав ущерб, знайте — перед вами мошенники. Не поддавайтесь на их
+                                    провокации,
+                                    вызывайте ГИБДД и сохраняйте спокойствие</p>
+                            </div>
                         </div>
-                        <h2>Если машины в результате аварии</h2>
-                        <p>полностью перекрыли движение (в этом случае вы можете отъехать в сторону)</p>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="" alt=""/>
-                            <img src="" alt=""/>
+
+                        <div className="container_table_block">
+                            <div className="container_table_block_number_and_img">
+                                <img src={Icon8} alt="Icon7"/>
+                            </div>
+
+                            <div className="container_table_for_title">
+                                <h2 className="container_table_block_title"><span
+                                    className="right_table_in_second_section_dtpWillHappened_span">Внимание</span></h2>
+                                <p>Оставление водителем место ДТП влечет лишения права управления транспортными
+                                    средствами на
+                                    строк от одного года до полутора лет или административный арест на срок до 15
+                                    суток</p>
+                            </div>
                         </div>
-                        <h2>Если все участники аварии согласны с обстоятельствами ДТП</h2>
-                        <p>и нет пострадавших, то можно приехать на пост ГИБДД и там заявить об аварии (пункт 2.6 ПДД).
-                            До этого момента участники аварии должны составить подробную схему ДТП с описанием всех
-                            обстоятельств аварии (время, видимость, погодные условия и так далее), подписать ее и
-                            сделать фото и видео съемку</p>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <div>
-                            <img src="" alt=""/>
-                        </div>
-                        <h2><span>Важно</span></h2>
-                        <p>если при ДТП вас начинают запугивать, шантажировать, угрожать и предлагают решить вопрос на
-                            месте, конпенсировав ущерб, знайте — перед вами мошенники. Не поддавайтесь на их провокации,
-                            вызывайте ГИБДД и сохраняйте спокойствие</p>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="" alt=""/>
-                        </div>
-                        <h2><span>Внимание</span></h2>
-                        <p>Оставление водителем место ДТП влечет лишения права управления транспортными средствами на
-                            строк от одного года до полутора лет или административный арест на срок до 15 суток</p>
                     </div>
                 </div>
             </section>
-            <section>
-                <div>
+            <section className="fourth_section_dtpWillHappened">
+                <div className="fourth_section_dtpWillHappened_container">
                     <h1>Подытожим</h1>
                     <div>
                         <p>Первым делом водитель должен предупредить остальных участников дорожного движения об

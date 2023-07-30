@@ -222,3 +222,48 @@
   }
 }
 
+.third_section_dtpWillHappened {
+  max-width: 1290px;
+  margin: 100px auto 0;
+
+  &_main_title {
+    max-width: 70%;
+    font-family: $font-family, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 39px;
+    text-align: left;
+    color: #212121;
+
+    &_subtitle2 {
+      font-family: $font-family, sans-serif;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 22px;
+      text-align: left;
+      color: #3A3A3A;
+    }
+
+    &_subtitle1 {
+      color: #0063BA;
+    }
+  }
+}
+.right_table_in_second_section_dtpWillHappened{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &_span{
+    color: #F12F2F;
+  }
+}
+.fourth_section_dtpWillHappened{
+  width: 100%;
+  background-color: #212121;
+  &_container{
+    max-width: 1290px;
+    margin: 0 auto;
+  }
+}
+
+
