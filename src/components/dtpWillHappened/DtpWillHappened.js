@@ -13,6 +13,7 @@ import Icon5 from "../../utils/img/img_dtpWillHappened/icon(5).png";
 import Icon6 from "../../utils/img/img_dtpWillHappened/icon(6).png";
 import Icon7 from "../../utils/img/img_dtpWillHappened/icon(7).png";
 import Icon8 from "../../utils/img/img_dtpWillHappened/icon(8).png";
+import Image1 from "../../utils/img/img_dtpWillHappened/image(1).png";
 
 function DtpWillHappened() {
     return (
@@ -273,8 +274,8 @@ function DtpWillHappened() {
             </section>
             <section className="fourth_section_dtpWillHappened">
                 <div className="fourth_section_dtpWillHappened_container">
-                    <h1>Подытожим</h1>
-                    <div>
+                    <div className="fourth_section_dtpWillHappened_container_text">
+                        <h1 className="fourth_section_dtpWillHappened_container_main_title">Подытожим</h1>
                         <p>Первым делом водитель должен предупредить остальных участников дорожного движения об
                             опасности — включить аварийную световую сигнализацию и выставить на дорогу знак аварийной
                             остановки.</p>
@@ -287,9 +288,10 @@ function DtpWillHappened() {
                             расследованию. Далее важно записать фамилии и адреса очевидцев ДТП, сообщить о произошедшем
                             в милицию.</p>
                     </div>
+
+                <div className="fourth_section_dtpWillHappened_container_img">
+                    <img src={Image1} alt="Image1"/>
                 </div>
-                <div>
-                    <img src="" alt=""/>
                 </div>
             </section>
             <section>
