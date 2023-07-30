@@ -1,6 +1,12 @@
 import React from 'react';
 import "./DtpWillHappened.css";
 import Icon_light from "../../utils/img/img_dtpWillHappened/icon_light.png";
+import Frame from "../../utils/img/img_dtpWillHappened/Frame.png";
+import Icon from "../../utils/img/img_dtpWillHappened/icon.png";
+import Component1 from "../../utils/img/img_dtpWillHappened/Component1.png";
+import Icon1 from "../../utils/img/img_dtpWillHappened/icon(1).png";
+import Icon2 from "../../utils/img/img_dtpWillHappened/icon(2).png";
+import Icon3 from "../../utils/img/img_dtpWillHappened/icon(3).png";
 
 function DtpWillHappened() {
     return (
@@ -16,14 +22,17 @@ function DtpWillHappened() {
                                         <p className="container_table_block_number">1</p>
                                         <img src={Icon_light} alt="Icon_light" className="container_table_block_img"/>
                                     </div>
-                                    <h2 className="container_table_block_title">Включить аварийную сигнализацию</h2>
+                                    <div className="container_table_for_title">
+                                        <h2 className="container_table_block_title">Включить аварийную сигнализацию</h2>
+                                    </div>
                                 </div>
+
                                 <div className="container_table_block">
                                     <div className="container_table_block_number_and_img">
                                         <p className="container_table_block_number">2</p>
-                                        <img src="" alt=""/>
+                                        <img src={Frame} alt="Frame"/>
                                     </div>
-                                    <div>
+                                    <div className="container_table_for_title">
                                         <h2 className="container_table_block_title">Установить знак аварийной
                                             остановки</h2>
                                         <p>Он устанавливается на расстоянии не менее 15 метров от транспортного
@@ -32,55 +41,78 @@ function DtpWillHappened() {
                                             пунктах и 30 м —вне населенных пунктов</p>
                                     </div>
                                 </div>
-                                <div>
-                                    <div>
-                                        <img src="" alt=""/>
-                                        <img src="" alt=""/>
+
+                                <div className="container_table_block">
+                                    <div className="container_table_block_number_and_img">
+                                        <p className="container_table_block_number">3</p>
+                                        <img src={Icon} alt="Icon"/>
                                     </div>
-                                    <h2>Осмотреть себя и пассажиров</h2>
-                                    <p>Убедитесь, что с вами, вашими пассажирами, а так же людьми в другой машине все в
-                                        порядке.
-                                        Если люди получили травмы, необходимо немедленно вызвать Скорую помощь и, по по
-                                        возможности,
-                                        оказать первую медицинскую помощь</p>
+                                    <div className="container_table_for_title">
+                                        <h2 className="container_table_block_title">Осмотреть себя и пассажиров</h2>
+                                        <p>Убедитесь, что с вами, вашими пассажирами, а так же людьми в другой машине
+                                            все в
+                                            порядке.
+                                            Если люди получили травмы, необходимо немедленно вызвать Скорую помощь и, по
+                                            по
+                                            возможности,
+                                            оказать первую медицинскую помощь</p>
+                                    </div>
                                 </div>
-                                <div>
-                                    <div>
-                                        <img src="" alt=""/>
-                                        <img src="" alt=""/>
+
+                                <div className="container_table_block">
+                                    <div className="container_table_block_number_and_img">
+                                        <p className="container_table_block_number">4</p>
+                                        <img src={Component1} alt="Component1"/>
                                     </div>
-                                    <h2>Вызвать Скорую помощь (если это необходимо) и сотрудника ГИБДД</h2>
-                                    <p>(если повреждения автомобилей минимальны, то можно обойтись и без этого)</p>
+                                    <div className="container_table_for_title">
+                                        <h2 className="container_table_block_title">Вызвать Скорую помощь (если это
+                                            необходимо) и сотрудника ГИБДД</h2>
+                                        <p>(если повреждения автомобилей минимальны, то можно обойтись и без этого)</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                         <div className="container_table_right">
+
                             <div>
-                                <div>
-                                    <div>
-                                        <img src="" alt=""/>
-                                        <img src="" alt=""/>
+                                <div className="container_table_block">
+                                    <div className="container_table_block_number_and_img">
+                                        <p className="container_table_block_number">5</p>
+                                        <img src={Icon1} alt="Icon1"/>
                                     </div>
-                                    <h2>Позвонить в свою страховую компанию и сообщить о ДТП</h2>
-                                    <p>Попросите страховую компанию вызвать аварийного комиссара (если подобная услуга
-                                        предоставляется)</p>
+                                    <div className="container_table_for_title">
+                                        <h2 className="container_table_block_title">Позвонить в свою страховую компанию
+                                            и сообщить о ДТП</h2>
+                                        <p>Попросите страховую компанию вызвать аварийного комиссара (если подобная
+                                            услуга
+                                            предоставляется)</p>
+                                    </div>
                                 </div>
-                                <div>
-                                    <div>
-                                        <img src="" alt=""/>
-                                        <img src="" alt=""/>
+
+                                <div className="container_table_block">
+                                    <div className="container_table_block_number_and_img">
+                                        <p className="container_table_block_number">6</p>
+                                        <img src={Icon2} alt="Icon2"/>
                                     </div>
-                                    <h2>Заполнить бланк извещения о ДТП</h2>
-                                    <p>Лучше всего, если в этом вам поможет аварийный комиссар</p>
+                                    <div className="container_table_for_title">
+                                        <h2 className="container_table_block_title">Заполнить бланк извещения о ДТП</h2>
+                                        <p>Лучше всего, если в этом вам поможет аварийный комиссар</p>
+                                    </div>
                                 </div>
-                                <div>
-                                    <div>
-                                        <img src="" alt=""/>
-                                        <img src="" alt=""/>
+
+                                <div className="container_table_block">
+                                    <div className="container_table_block_number_and_img">
+                                        <p className="container_table_block_number">7</p>
+                                        <img src={Icon3} alt="Icon3"/>
                                     </div>
-                                    <h2>Сфотографировать поврежденные авто со всех строн</h2>
-                                    <p>Постарайтесь, чтобы в кадры попали помимо машин дорожные знаки, сфетофор и так
-                                        далее</p>
+                                    <div className="container_table_for_title">
+                                        <h2 className="container_table_block_title">Сфотографировать поврежденные авто
+                                            со всех строн</h2>
+                                        <p>Постарайтесь, чтобы в кадры попали помимо машин дорожные знаки, сфетофор и
+                                            так
+                                            далее</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
