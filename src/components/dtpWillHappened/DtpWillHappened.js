@@ -7,6 +7,7 @@ import Component1 from "../../utils/img/img_dtpWillHappened/Component1.png";
 import Icon1 from "../../utils/img/img_dtpWillHappened/icon(1).png";
 import Icon2 from "../../utils/img/img_dtpWillHappened/icon(2).png";
 import Icon3 from "../../utils/img/img_dtpWillHappened/icon(3).png";
+import Image from "../../utils/img/img_dtpWillHappened/image.png";
 
 function DtpWillHappened() {
     return (
@@ -59,7 +60,7 @@ function DtpWillHappened() {
                                     </div>
                                 </div>
 
-                                <div className="container_table_block">
+                                <div className="container_table_block point_contact">
                                     <div className="container_table_block_number_and_img">
                                         <p className="container_table_block_number">4</p>
                                         <img src={Component1} alt="Component1"/>
@@ -119,33 +120,55 @@ function DtpWillHappened() {
                     </div>
                 </div>
             </section>
-            <section>
-                <h2>Для вызова с мобильного телефона воспользуйтесь одним из этих номеров</h2>
-                <div>
-                    <div>
-                        <p>112</p>
-                        <p>Для вызова с мобильного телефона воспользуйтесь одним из этих номеров</p>
+            <section className="second_section_dttWillHappened">
+                <div className="second_section_dttWillHappened_container">
+                <h2 className="second_section_dttWillHappened_container_main_title">Для вызова с <span>мобильного телефона</span> воспользуйтесь одним из этих номеров</h2>
+                <div className="second_section_dttWillHappened_row">
+                    <div className="second_section_dttWillHappened_row_block">
+                        <p className="second_section_dttWillHappened_row_block_number">112</p>
+                        <p className="second_section_dttWillHappened_row_block_text">Для вызова с мобильного телефона воспользуйтесь одним из этих номеров</p>
                     </div>
-                    <div>
-                        <p>02</p>
-                        <p>Для вызова с мобильного телефона воспользуйтесь одним из этих номеров</p>
+                    <div className="second_section_dttWillHappened_row_block">
+                        <p className="second_section_dttWillHappened_row_block_number">02</p>
+                        <p className="second_section_dttWillHappened_row_block_text">Для вызова с мобильного телефона воспользуйтесь одним из этих номеров</p>
                     </div>
-                    <div>
-                        <p>112</p>
-                        <p>Для вызова с мобильного телефона воспользуйтесь одним из этих номеров</p>
+                    <div className="second_section_dttWillHappened_row_block">
+                        <p className="second_section_dttWillHappened_row_block_number">112</p>
+                        <p className="second_section_dttWillHappened_row_block_text">Для вызова с мобильного телефона воспользуйтесь одним из этих номеров</p>
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <img src="" alt=""/>
-                    </div>
-                    <div>
-                        <h3>Дозвонившись в ГАИ, автомобилист должен сообщить оператору следующую информацию</h3>
-                        <div> ТУТ СПИСОК</div>
-                    </div>
-                    <div>
-                        <p>Если в аварии пострадали люди, то помимо ГИБДД нужно позвонить в скорую помощь. Оператору
-                            сообщаем о количестве пострадавших, месте аварии и характере полученных травм.</p>
+                    <div className="second_section_dttWillHappened_second_block">
+                        <div className="second_section_dttWillHappened_second_block_img">
+                            <img src={Image} alt="112"/>
+                        </div>
+                        <div className="second_section_dttWillHappened_second_block_text">
+                            <h3>Дозвонившись в ГАИ, автомобилист должен сообщить оператору следующую информацию</h3>
+                            <div>
+                                <ol>
+                                    <li>Место происшествия:
+                                        <ul>
+                                            <li>если ДТП произошло в городе, следует сообщить адрес</li>
+                                            <li>если авария произошла за чертой города, то сообщается название трассы и
+                                                номер километра. Также желательно сообщить название ближайшего
+                                                населенного пункта
+                                            </li>
+                                            <li>если рядом с местом ДТП находятся какие-либо достопримечательности, то о
+                                                них следует упомянуть в телефонном разговоре. Эта информация поможет
+                                                сотрудникам ГАИ сориентироваться
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>Количество участников происшествия</li>
+                                    <li>Наличие пострадавших и их количество</li>
+                                </ol>
+                            </div>
+
+                            <div>
+                                <p>Если в аварии пострадали люди, то помимо ГИБДД нужно позвонить в скорую помощь.
+                                    Оператору
+                                    сообщаем о количестве пострадавших, месте аварии и характере полученных травм.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
