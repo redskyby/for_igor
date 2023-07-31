@@ -1,45 +1,62 @@
 import React from 'react';
 import "./DtpWithAnimals.css";
 import Table from "./TableAnimal/Table";
-import {data , data1} from "./DataForTable";
+import {data, data1} from "./DataForTable";
+import Img from "../../utils/img/img_dtpWithAnimals/img.png";
+import Img1 from "../../utils/img/img_dtpWithAnimals/img(1).png";
+import Img2 from "../../utils/img/img_dtpWithAnimals/img03.png";
+import Img3 from "../../utils/img/img_dtpWithAnimals/img02.png";
+import Img4 from "../../utils/img/img_dtpWithAnimals/img01.png";
 
 function DtpWithAnimals() {
     return (
         <div>
-            <section>
-                <div>
-                    <h1>ДТП с животными</h1>
-                    <p>Если в ходе движения автомобиля причинен вред жизни или здоровью гражданина, его имуществу либо
+            <section className="container_dtpWithAnimal">
+                <div className="first_section_dtpWithAnimal_left">
+                    <h1 className="container_dtpWithAnimal_main_title">ДТП с животными</h1>
+                    <h3 className="container_dtpWithAnimal_third_title">Первоначально при любом ДТП!</h3>
+                    <p className="first_section_dtpWithAnimal_left_text">Если в ходе движения автомобиля причинен вред
+                        жизни или здоровью гражданина, его имуществу либо
                         имуществу организации (далее — вред), то имеет место дорожно-транспортное происшествие (ДТП).
                         Полагаем, если на автомобиле совершен наезд на животное, то в любом случае причиняется вред.
                         Следовательно, это ДТП.</p>
-                    <p>В связи с этим водитель должен:</p>
-                    <ol>
-                        <li><span>остановить автомобиль сразу после столкновения</span></li>
-                        <li><span>включить аварийную сигнализацию и выставить знак аварийной остановки. <p>На заметку!</p> <p>Знак нужно выставить на расстоянии не менее 15 метров от автомобиля в населенном пункте и не менее 40 метров — вне населенных пунктов.</p></span></li>
-                        <li><span>принять меры по оказанию необходимой помощи пострадавшим (при их наличии), в т.ч. вызвать скорую медицинскую помощь</span></li>
-                        <li><span>вызвать ГАИ</span></li>
-                        <li><span>до прибытия сотрудников ГАИ принять все возможные меры по сохранению следов и предметов, относящихся к ДТП, их ограждению и организации объезда места ДТП</span></li>
-                    </ol>
+
+                        <p className="first_section_dtpWithAnimal_left_text">В связи с этим водитель должен:</p>
+                    <div className="first_section_dtpWithAnimal_left_list">
+                        <ol>
+                            <li><span>остановить автомобиль сразу после столкновения</span></li>
+                            <li><span>включить аварийную сигнализацию и выставить знак аварийной остановки. <p className="first_section_dtpWithAnimal_left_list_notice">На заметку!</p> <p>Знак нужно выставить на расстоянии не менее 15 метров от автомобиля в населенном пункте и не менее 40 метров — вне населенных пунктов.</p></span>
+                            </li>
+                            <li><span>принять меры по оказанию необходимой помощи пострадавшим (при их наличии), в т.ч. вызвать скорую медицинскую помощь</span>
+                            </li>
+                            <li><span>вызвать ГАИ</span></li>
+                            <li><span>до прибытия сотрудников ГАИ принять все возможные меры по сохранению следов и предметов, относящихся к ДТП, их ограждению и организации объезда места ДТП</span>
+                            </li>
+                        </ol>
+                    </div>
                 </div>
-                <div>
-                    <img src="" alt=""/>
-                    <img src="" alt=""/>
-                    <div>
-                        <h3>Обратите внимание!</h3>
-                        <p>За оставление места ДТП в случаях, когда это запрещено законодательными актами, предусмотрены штраф в размере от 5 до 25 БВ или лишение права управления транспортными средствами сроком до 2 лет.</p>
+                <div className="first_section_dtpWithAnimal_right">
+                    <img className="first_section_dtpWithAnimal_right_first_img"
+                        src={Img} alt="dtpWithAnimal"/>
+                    <img className="first_section_dtpWithAnimal_right_second_img"
+                        src={Img1} alt="dtpWithAnimal"/>
+                    <div className="first_section_dtpWithAnimal_right_block">
+                        <h3 className="first_section_dtpWithAnimal_right_notice">Обратите внимание!</h3>
+                        <p className="first_section_dtpWithAnimal_right_text">За оставление места ДТП в случаях, когда это запрещено законодательными актами, предусмотрены
+                            штраф в размере от 5 до 25 БВ или лишение права управления транспортными средствами сроком
+                            до 2 лет.</p>
                     </div>
                 </div>
             </section>
-            <section>
-                <div>
-                    <img src="" alt=""/>
-                    <img src="" alt=""/>
-                    <img src="" alt=""/>
+            <section className="container_dtpWithAnimal second_section_dtpWithAnimal">
+                <div className="second_section_dtpWithAnimal_right_block">
+                    <img src={Img2} alt="dtpWithAnimal" className="second_section_dtpWithAnimal_right_block_first_img"/>
+                    <img src={Img3} alt="dtpWithAnimal" className="second_section_dtpWithAnimal_right_block_second_img"/>
+                    <img src={Img4} alt="dtpWithAnimal" className="second_section_dtpWithAnimal_right_block_third_img"/>
                 </div>
-                <div>
-                    <h2>ДТП с <span>домашним</span> животными</h2>
-                    <div>
+                <div className="second_section_dtpWithAnimal_left_block">
+                    <h2 className="container_dtpWithAnimal_second_title">ДТП с <span className="second_section_dtpWithAnimal_left_block_notice">домашним</span> животными</h2>
+                    <div className="second_section_dtpWithAnimal_left_block_text">
                         <p>Согласно ст.137 Гражданского кодекса Республики Беларусь, к животным применяются правила об
                             имуществе, поскольку иное не установлено законодательством и не вытекает из особенностей
                             этого объекта. Тоесть животное – это имущество со всеми правами и обязанностями по его
@@ -61,9 +78,9 @@ function DtpWithAnimals() {
                     </div>
                 </div>
             </section>
-            <section>
+            <section className="container_dtpWithAnimal">
                 <div>
-                    <h2>ДТП с дикими животными</h2>
+                    <h2 className="container_dtpWithAnimal_second_title">ДТП с дикими животными</h2>
                     <div>
                         <p>В результате ДТП животное может погибнуть. В таком случае, если водитель будет признан
                             виновным в этом ДТП, то ему нужно будет возместить ущерб от гибели сбитого животного.
@@ -78,7 +95,7 @@ function DtpWithAnimals() {
                             а также справку, выданную ГАИ на месте ДТП.</p>
                     </div>
                     <div>
-                        <h3>На заметку!</h3>
+                        <p>На заметку!</p>
                         <p>Наличие вины водителя в ДТП будет зависеть от ряда обстоятельств:</p>
                         <ul>
                             <li>отреагировал ли он на предупреждение о действии знака «Дикие животные»</li>
@@ -100,8 +117,9 @@ function DtpWithAnimals() {
                     <img src="" alt=""/>
                 </div>
             </section>
-            <section>
-                <h2>Таксы для исчисления размера вреда, причиненного охотничьим ресурсам в РФ</h2>
+            <section className="container_dtpWithAnimal">
+                <h2 className="container_dtpWithAnimal_second_title">Таксы для исчисления размера вреда, причиненного
+                    охотничьим ресурсам в РФ</h2>
                 <div>
                     <div>
                         <Table data={data}/>
