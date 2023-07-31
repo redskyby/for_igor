@@ -1,15 +1,69 @@
+@import "../../../utils/variables";
+
 .table {
+  max-width: 600px;
   width: 100%;
   border-collapse: collapse;
+  background-color:  #ffffff;
+  border-radius: 20px;
+  th{
+    width: 50%;
+    padding: 10px;
+  }
+  td{
+    border-bottom: 1px solid #6C6C6C;
+    padding: 10px;
+  }
+
+  &_align_text_center{
+    text-align: center;
+    font-family: $font-family, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  &_align_text_left{
+    text-align: left;
+    font-family: $font-family, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  &_align_text_right{
+    text-align: right;
+    font-family: $font-family, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+
 }
 
-.table th,
-.table td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
+.price{
+  color: #2FD22F;
 }
 
-.table th {
-  background-color: #f2f2f2;
+.table_header{
+  font-family: $font-family, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #212121;
 }
+.table_header{
+  border-bottom: 2px solid #6C6C6C;
+}
+
+//.table th,
+//.table td {
+//  border-bottom: 1px solid #6C6C6C;
+//  padding: 8px;
+//  text-align: left;
+//  background-color: #ffffff;
+//
+//}
+//
+//.table th {
+//  background-color: #ffffff;
+//  border-bottom: 1px solid #6C6C6C;
+//}

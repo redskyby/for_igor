@@ -175,9 +175,104 @@
       color: #212121;
       margin-top: 35px;
     }
-    p{
+    p {
       margin-bottom: 15px;
     }
   }
+}
 
+.third_section_dtpWithAnimal {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  &_left{
+    max-width: 630px;
+    width: 100%;
+    &_text_top{
+      margin-top: 25px;
+      font-family: $font-family, sans-serif;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 22px;
+      text-align: left;
+      color: #3A3A3A;
+      p{
+        margin-bottom: 25px;
+      }
+    }
+    &_text_bottom{
+      margin-top: 25px;
+      font-family: $font-family, sans-serif;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 22px;
+      text-align: left;
+      color: #3A3A3A;
+        span{
+          color: #f12f2f;
+        }
+
+      &_list {
+        margin-left: 45px;
+        list-style-image: url("../../utils/img/img_dtpWillHappened/check.svg");
+        font-family: $font-family, sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        color: #3A3A3A;
+      }
+
+      &_block {
+        margin-top: 40px;
+        background-color: #ffffff;
+        border: 1px solid #ffffff;
+        border-radius: 20px;
+        padding: 20px 30px 20px 30px;
+        box-shadow: 0 4px 30px 0 #A9BDCE40;
+        p{
+          font-family: $font-family, sans-serif;
+          font-size: 17px;
+          font-weight: 400;
+          line-height: 22px;
+          text-align: left;
+          color: #3A3A3A;
+        }
+      }
+    }
+  }
+
+  &_right {
+    max-width: 360px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+}
+
+.forth_section_dtpWithAnimal {
+  display: flex;
+  flex-direction: column;
+  margin-top: 210px;
+  &_main_title{
+    max-width: 60%;
+    margin-bottom: 20px;
+  }
+  &_with_tables {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 30px 0 #A9BDCE40;
+  }
+  &_with_tables {
+    padding: 20px;
+  }
 }

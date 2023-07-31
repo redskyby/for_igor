@@ -7,6 +7,10 @@ import Img1 from "../../utils/img/img_dtpWithAnimals/img(1).png";
 import Img2 from "../../utils/img/img_dtpWithAnimals/img03.png";
 import Img3 from "../../utils/img/img_dtpWithAnimals/img02.png";
 import Img4 from "../../utils/img/img_dtpWithAnimals/img01.png";
+import Img5 from "../../utils/img/img_dtpWithAnimals/img_1.png";
+import Img6 from "../../utils/img/img_dtpWithAnimals/img_4.png";
+import Img7 from "../../utils/img/img_dtpWithAnimals/img_2.png";
+import Img8 from "../../utils/img/img_dtpWithAnimals/img_3.png";
 
 function DtpWithAnimals() {
     return (
@@ -78,10 +82,10 @@ function DtpWithAnimals() {
                     </div>
                 </div>
             </section>
-            <section className="container_dtpWithAnimal">
-                <div>
+            <section className="container_dtpWithAnimal third_section_dtpWithAnimal">
+                <div className="third_section_dtpWithAnimal_left">
                     <h2 className="container_dtpWithAnimal_second_title">ДТП с дикими животными</h2>
-                    <div>
+                    <div className="third_section_dtpWithAnimal_left_text_top">
                         <p>В результате ДТП животное может погибнуть. В таком случае, если водитель будет признан
                             виновным в этом ДТП, то ему нужно будет возместить ущерб от гибели сбитого животного.
                             Например, если под колесами автомобиля погибнет лось, то сумма возмещения составит 300 БВ,
@@ -94,37 +98,37 @@ function DtpWithAnimals() {
                             договор страхования. К заявлению следует приложить письменные объяснения обстоятельств ДТП,
                             а также справку, выданную ГАИ на месте ДТП.</p>
                     </div>
-                    <div>
-                        <p>На заметку!</p>
+                    <div className="third_section_dtpWithAnimal_left_text_bottom">
+                        <p><span>На заметку!</span></p>
                         <p>Наличие вины водителя в ДТП будет зависеть от ряда обстоятельств:</p>
-                        <ul>
+                        <ul className="third_section_dtpWithAnimal_left_text_bottom_list">
                             <li>отреагировал ли он на предупреждение о действии знака «Дикие животные»</li>
                             <li>избрал ли безопасную для движения скорость</li>
                             <li>в каком состоянии он управлял автомобилем и т.п.</li>
                         </ul>
                     </div>
-                    <div>
+                    <div className="third_section_dtpWithAnimal_left_text_bottom_block">
                         <p>Отметим, что ни в коем случае нельзя забирать себе тушу погибшего животного. Перемещение
                             (транспортировка) и разделка диких животных, в т.ч. погибших, без предусмотренных
                             законодательством документов запрещается. За нарушение этого правила предусмотрена
                             ответственность как в виде штрафа, так и виде лишения свободы.</p>
                     </div>
                 </div>
-                <div>
-                    <img src="" alt=""/>
-                    <img src="" alt=""/>
-                    <img src="" alt=""/>
-                    <img src="" alt=""/>
+                <div className="third_section_dtpWithAnimal_right">
+                    <img src={Img5} alt="dtpWithAnimal"/>
+                    <img src={Img6} alt="dtpWithAnimal"/>
+                    <img src={Img7} alt="dtpWithAnimal"/>
+                    <img src={Img8} alt="dtpWithAnimal"/>
                 </div>
             </section>
-            <section className="container_dtpWithAnimal">
-                <h2 className="container_dtpWithAnimal_second_title">Таксы для исчисления размера вреда, причиненного
+            <section className="container_dtpWithAnimal forth_section_dtpWithAnimal">
+                <h2 className="container_dtpWithAnimal_second_title forth_section_dtpWithAnimal_main_title" >Таксы для исчисления размера вреда, причиненного
                     охотничьим ресурсам в РФ</h2>
-                <div>
-                    <div>
+                <div className="forth_section_dtpWithAnimal_with_tables">
+                    <div className="forth_section_dtpWithAnimal_with_table">
                         <Table data={data}/>
                     </div>
-                    <div>
+                    <div className="forth_section_dtpWithAnimal_with_table">
                         <Table data={data1}/>
                     </div>
                 </div>

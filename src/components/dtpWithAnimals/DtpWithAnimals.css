@@ -171,4 +171,97 @@
   margin-bottom: 15px;
 }
 
+.third_section_dtpWithAnimal {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.third_section_dtpWithAnimal_left {
+  max-width: 630px;
+  width: 100%;
+}
+.third_section_dtpWithAnimal_left_text_top {
+  margin-top: 25px;
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #3A3A3A;
+}
+.third_section_dtpWithAnimal_left_text_top p {
+  margin-bottom: 25px;
+}
+.third_section_dtpWithAnimal_left_text_bottom {
+  margin-top: 25px;
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #3A3A3A;
+}
+.third_section_dtpWithAnimal_left_text_bottom span {
+  color: #f12f2f;
+}
+.third_section_dtpWithAnimal_left_text_bottom_list {
+  margin-left: 45px;
+  list-style-image: url("../../utils/img/img_dtpWillHappened/check.svg");
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #3A3A3A;
+}
+.third_section_dtpWithAnimal_left_text_bottom_block {
+  margin-top: 40px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding: 20px 30px 20px 30px;
+  box-shadow: 0 4px 30px 0 rgba(169, 189, 206, 0.2509803922);
+}
+.third_section_dtpWithAnimal_left_text_bottom_block p {
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #3A3A3A;
+}
+.third_section_dtpWithAnimal_right {
+  max-width: 360px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.forth_section_dtpWithAnimal {
+  display: flex;
+  flex-direction: column;
+  margin-top: 210px;
+}
+.forth_section_dtpWithAnimal_main_title {
+  max-width: 60%;
+  margin-bottom: 20px;
+}
+.forth_section_dtpWithAnimal_with_tables {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 30px 0 rgba(169, 189, 206, 0.2509803922);
+}
+.forth_section_dtpWithAnimal_with_tables {
+  padding: 20px;
+}
+
 /*# sourceMappingURL=DtpWithAnimals.css.map */
