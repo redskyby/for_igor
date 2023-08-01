@@ -5,7 +5,7 @@ import Navbar from "./navbar/Navbar";
 import Footer from "./footer/Footer";
 import MainPage from "./mainPage/MainPage";
 import DtpWillHappened from "./dtpWillHappened/DtpWillHappened";
-import MedicalSupport from "./medicalSupport/medicalSupport";
+import MedicalSupport from "./medicalSupport/MedicalSupport";
 import DtpWithAnimals from "./dtpWithAnimals/DtpWithAnimals";
 import Contacts from "./contacts/Contacts";
 
