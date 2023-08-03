@@ -1,41 +1,46 @@
 @import "../../utils/variables";
 
-.containerForMedicalSupport{
+.containerForMedicalSupport {
   max-width: 1290px;
   width: 100%;
   margin: 0 auto;
 }
 
-.first_section_MedicalSupport{
+.first_section_MedicalSupport {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 45px;
-  &_left{
+
+  &_left {
     max-width: 520px;
     width: 100%;
-    &_text{
-        h1 , h2{
-          font-family: $font-family, sans-serif;
-          font-size: 42px;
-          font-weight: 600;
-          line-height: 55px;
-          text-align: left;
-          color: #212121;
-        }
-      h2{
+
+    &_text {
+      h1, h2 {
+        font-family: $font-family, sans-serif;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 55px;
+        text-align: left;
+        color: #212121;
+      }
+
+      h2 {
         margin-top: 10px;
         font-size: 30px;
         line-height: 39px;
       }
     }
-    &_imgs{
+
+    &_imgs {
       margin-top: 90px;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      img{
+
+      img {
         max-width: 410px;
         width: 100%;
         max-height: 230px;
@@ -44,14 +49,17 @@
       }
     }
   }
-  &_right{
+
+  &_right {
     max-width: 720px;
     width: 100%;
-    &_list{
-        list-style-type: decimal;
-        color: #019C01;
-        font-family: Raleway, sans-serif;
-      li span{
+
+    &_list {
+      list-style-type: decimal;
+      color: #019C01;
+      font-family: Raleway, sans-serif;
+
+      li span {
         display: block;
         font-family: $font-family, sans-serif;
         font-size: 17px;
@@ -60,7 +68,8 @@
         text-align: left;
         color: #000000;
         margin-bottom: 10px;
-        h3{
+
+        h3 {
           display: inline;
           font-family: $font-family, sans-serif;
           font-size: 17px;
@@ -70,16 +79,20 @@
           color: #000000;
         }
       }
-      li{
+
+      li {
         margin-bottom: 30px;
       }
-      &_list{
+
+      &_list {
         margin-left: 30px;
         list-style-type: disc;
+
         li {
           margin-bottom: 0px;
         }
-        &_text{
+
+        &_text {
           font-family: $font-family, sans-serif;
           font-size: 17px;
           font-weight: 400;
@@ -89,6 +102,90 @@
           margin-bottom: 10px;
         }
       }
+    }
+  }
+}
+
+.second_section_MedicalSupport {
+  width: 100%;
+  height: 100%;
+  background-color: #212121;
+  margin-top: 170px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  &_block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    &_img {
+      max-width: 450px;
+      width: 100%;
+      max-height: 308px;
+      height: 100%;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    &_text {
+      max-width: 720px;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+
+      h2 {
+        font-family: $font-family, sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 39px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+      }
+
+      p {
+        font-family: $font-family, sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+.third_section_ForMedicalSupport {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 970px;
+  width: 100%;
+
+  &_main_title {
+    max-width: 740px;
+    width: 100%;
+    h2 {
+      font-family: $font-family, sans-serif;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 39px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #000000;
+    }
+    P{
+
     }
   }
 }

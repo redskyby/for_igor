@@ -6,6 +6,7 @@ import img1 from "../../utils/img/img_MedicalSupport/s1/img01.png";
 import img2 from "../../utils/img/img_MedicalSupport/s1/img02.png";
 import img3 from "../../utils/img/img_MedicalSupport/s1/img03.png";
 import img4 from "../../utils/img/img_MedicalSupport/s1/img04.png";
+import img5 from "../../utils/img/img_MedicalSupport/s2/image92.png";
 
 function MedicalSupport() {
     return (
@@ -79,25 +80,35 @@ function MedicalSupport() {
                     </ol>
                 </div>
             </section>
-            <section className="containerForMedicalSupport ыусщтв_ыусешщт">
-                <div>
-                    <img src="" alt=""/>
-                </div>
-                <div>
-                    <h2>Эвакуация пострадавших.</h2>
-                    <div>
-                        <p>При ДТП наиболее вероятно повреждение шейного отдела позвоночника. Неправильное извлечение
-                            пострадавшего может привести к его смерти!</p>
-                        <p> Определите уровень сознания: реагирует ли человек на происходящее. Если признаков нет то
-                            используйте 10% раствора аммиака из аптечки (на кусок ваты или бинта нанесите немного
-                            раствора и поднесите на 0,5–1 секунду к носовым отверстиям пострадавшего) для приведения в
-                            сознание.</p>
+            <section className="second_section_MedicalSupport">
+                <div className="containerForMedicalSupport">
+                    <div className="second_section_MedicalSupport_block">
 
+                        <div className="second_section_MedicalSupport_block_img">
+                            <img src={img5} alt="MedicalSupport"/>
+                        </div>
+                        <div className="containerForMedicalSupport second_section_MedicalSupport_block_text">
+                            <h2>Эвакуация пострадавших.</h2>
+                            <div>
+                                <p>При ДТП наиболее вероятно повреждение шейного отдела позвоночника. Неправильное
+                                    извлечение
+                                    пострадавшего может привести к его смерти!</p>
+                                <p> Определите уровень сознания: реагирует ли человек на происходящее. Если признаков
+                                    нет то
+                                    используйте 10% раствора аммиака из аптечки (на кусок ваты или бинта нанесите
+                                    немного
+                                    раствора и поднесите на 0,5–1 секунду к носовым отверстиям пострадавшего) для
+                                    приведения
+                                    в
+                                    сознание.</p>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
-            <section className="containerForMedicalSupport">
-                <div>
+            <section className="containerForMedicalSupport third_section_ForMedicalSupport">
+                <div className="third_section_ForMedicalSupport_main_title">
                     <h2>Способы перемещения пострадавшего в безопасное место или другой безопасный транспорт</h2>
                     <p>Перемещать пострадавшего до транспорта или в безопасное место можно различными способами,
                         зависящими от характера травм и состояния пострадавшего, количества участников перемещения и их
