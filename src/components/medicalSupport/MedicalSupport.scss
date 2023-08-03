@@ -164,6 +164,10 @@
     }
   }
 }
+.third_section_ForMedicalSupport_align_right{
+  display: flex;
+  justify-content: flex-end;
+}
 
 .third_section_ForMedicalSupport {
   display: flex;
@@ -196,5 +200,18 @@
       text-align: left;
       color: #000000;
     }
+  }
+}
+
+.forth_section_MedicalSupport{
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px 0 #A9BDCE40;
+  background-color: #ffffff;
+  &_first_block{
+    width: 100%;
   }
 }

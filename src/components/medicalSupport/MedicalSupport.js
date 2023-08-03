@@ -7,6 +7,8 @@ import img2 from "../../utils/img/img_MedicalSupport/s1/img02.png";
 import img3 from "../../utils/img/img_MedicalSupport/s1/img03.png";
 import img4 from "../../utils/img/img_MedicalSupport/s1/img04.png";
 import img5 from "../../utils/img/img_MedicalSupport/s2/image92.png";
+import img6 from "../../utils/img/img_MedicalSupport/s4/img1.png";
+import img7 from "../../utils/img/img_MedicalSupport/s4/img2.png";
 
 function MedicalSupport() {
     return (
@@ -107,32 +109,34 @@ function MedicalSupport() {
                     </div>
                 </div>
             </section>
-            <section className="containerForMedicalSupport third_section_ForMedicalSupport">
-                <div className="third_section_ForMedicalSupport_main_title">
-                    <h2>Способы перемещения пострадавшего в безопасное место или другой безопасный транспорт</h2>
-                    <p>Перемещать пострадавшего до транспорта или в безопасное место можно различными способами,
-                        зависящими от характера травм и состояния пострадавшего, количества участников перемещения и их
-                        физических возможностей.</p>
-                </div>
-                <div>
-                    <BlockForMedicalSupport data={dataForBlock}/>
-                </div>
-            </section>
-            <section className="containerForMedicalSupport">
-                <div>
-                    <h2>
-                        Реанимация при клинической смерти
-                    </h2>
-                    <p>В случае отсутствия сознания, дыхания и сердцебиения, широкий зрачок, наличие этих симптомов —
-                        показание к проведению реанимационных мероприятий по системе ABC (проходимость верхних
-                        дыхательных путей, искусственное дыхание, массаж сердца).</p>
-                    <h3>Действия:</h3>
-                </div>
-                <div>
-                    <div>
-                        <img src="" alt=""/>
+            <section className="containerForMedicalSupport third_section_ForMedicalSupport_align_right">
+                <div className="third_section_ForMedicalSupport">
+                    <div className="third_section_ForMedicalSupport_main_title">
+                        <h2>Способы перемещения пострадавшего в безопасное место или другой безопасный транспорт</h2>
+                        <p>Перемещать пострадавшего до транспорта или в безопасное место можно различными способами,
+                            зависящими от характера травм и состояния пострадавшего, количества участников перемещения и
+                            их
+                            физических возможностей.</p>
                     </div>
                     <div>
+                        <BlockForMedicalSupport data={dataForBlock}/>
+                    </div>
+                </div>
+            </section>
+            <section className="containerForMedicalSupport forth_section_MedicalSupport">
+                <div className="forth_section_MedicalSupport_first_block">
+                    <div>
+                        <img src={img6} alt="MedicalSupport"/>
+                    </div>
+                    <div>
+                        <h2>
+                            Реанимация при клинической смерти
+                        </h2>
+                        <p>В случае отсутствия сознания, дыхания и сердцебиения, широкий зрачок, наличие этих симптомов
+                            —
+                            показание к проведению реанимационных мероприятий по системе ABC (проходимость верхних
+                            дыхательных путей, искусственное дыхание, массаж сердца).</p>
+                        <h3>Действия:</h3>
                         <p>Пострадавшего положите на спину в безопасном месте на твёрдую поверхность.</p>
                         <p> Ликвидируйте закупорку верхних дыхательных путей. Причиной её могут быть западение языка,
                             инородное тело, отёк и спазм гортани, травма.</p>

@@ -1,15 +1,15 @@
-import img1 from "../../utils/img/img_MedicalSupport/1.png";
-import img2 from "../../utils/img/img_MedicalSupport/image108.png";
-import img3 from "../../utils/img/img_MedicalSupport/image112.png";
-import img4 from "../../utils/img/img_MedicalSupport/image111.png";
-import img5 from "../../utils/img/img_MedicalSupport/image113.png";
-import img6 from "../../utils/img/img_MedicalSupport/image114.png";
-import img7 from "../../utils/img/img_MedicalSupport/7.png";
-import img7_1 from "../../utils/img/img_MedicalSupport/image116.png";
-import img8 from "../../utils/img/img_MedicalSupport/9.png";
-import img8_1 from "../../utils/img/img_MedicalSupport/image118.png";
-import img9 from "../../utils/img/img_MedicalSupport/11.png";
-import img10 from "../../utils/img/img_MedicalSupport/12.png";
+import img1 from "../../utils/img/img_MedicalSupport/s3/1.png";
+import img2 from "../../utils/img/img_MedicalSupport/s3/image108.png";
+import img3 from "../../utils/img/img_MedicalSupport/s3/image112.png";
+import img4 from "../../utils/img/img_MedicalSupport/s3/image111.png";
+import img5 from "../../utils/img/img_MedicalSupport/s3/image113.png";
+import img6 from "../../utils/img/img_MedicalSupport/s3/image114.png";
+import img7 from "../../utils/img/img_MedicalSupport/s3/7.png";
+import img7_1 from "../../utils/img/img_MedicalSupport/s3/image116.png";
+import img8 from "../../utils/img/img_MedicalSupport/s3/9.png";
+import img8_1 from "../../utils/img/img_MedicalSupport/s3/image118.png";
+import img9 from "../../utils/img/img_MedicalSupport/s3/11.png";
+import img10 from "../../utils/img/img_MedicalSupport/s3/12.png";
 
 
 const dataForBlock = [

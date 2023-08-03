@@ -142,6 +142,11 @@
   margin-bottom: 10px;
 }
 
+.third_section_ForMedicalSupport_align_right {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .third_section_ForMedicalSupport {
   display: flex;
   flex-direction: column;
@@ -172,6 +177,19 @@
   letter-spacing: 0em;
   text-align: left;
   color: #000000;
+}
+
+.forth_section_MedicalSupport {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px 0 rgba(169, 189, 206, 0.2509803922);
+  background-color: #ffffff;
+}
+.forth_section_MedicalSupport_first_block {
+  width: 100%;
 }
 
 /*# sourceMappingURL=MedicalSupport.css.map */
