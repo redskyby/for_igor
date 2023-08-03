@@ -49,6 +49,10 @@
   list-style-type: decimal;
   color: #019C01;
   font-family: Raleway, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
 }
 .first_section_MedicalSupport_right_list li span {
   display: block;
