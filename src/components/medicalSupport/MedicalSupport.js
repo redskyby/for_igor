@@ -149,7 +149,7 @@ function MedicalSupport() {
                 </div>
                 <div>
                     <div>
-                        <img src="" alt=""/>
+                        <img src={img7} alt="MedicalSupport"/>
                     </div>
                     <div>
                         <div>
