@@ -4,4 +4,89 @@
   margin: 0 auto;
 }
 
+.first_section_MedicalSupport {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+.first_section_MedicalSupport_left {
+  max-width: 520px;
+  width: 100%;
+}
+.first_section_MedicalSupport_left_text h1, .first_section_MedicalSupport_left_text h2 {
+  font-family: Raleway, sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 55px;
+  text-align: left;
+  color: #212121;
+}
+.first_section_MedicalSupport_left_text h2 {
+  margin-top: 10px;
+  font-size: 30px;
+  line-height: 39px;
+}
+.first_section_MedicalSupport_left_imgs {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.first_section_MedicalSupport_left_imgs img {
+  max-width: 410px;
+  width: 100%;
+  max-height: 230px;
+  height: 100%;
+  margin-bottom: 60px;
+}
+.first_section_MedicalSupport_right {
+  max-width: 720px;
+  width: 100%;
+}
+.first_section_MedicalSupport_right_list {
+  list-style-type: decimal;
+  color: #019C01;
+  font-family: Raleway, sans-serif;
+}
+.first_section_MedicalSupport_right_list li span {
+  display: block;
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.first_section_MedicalSupport_right_list li span h3 {
+  display: inline;
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: #000000;
+}
+.first_section_MedicalSupport_right_list li {
+  margin-bottom: 30px;
+}
+.first_section_MedicalSupport_right_list_list {
+  margin-left: 30px;
+  list-style-type: disc;
+}
+.first_section_MedicalSupport_right_list_list li {
+  margin-bottom: 0px;
+}
+.first_section_MedicalSupport_right_list_list_text {
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
 /*# sourceMappingURL=MedicalSupport.css.map */

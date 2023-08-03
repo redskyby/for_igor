@@ -1,5 +1,94 @@
+@import "../../utils/variables";
+
 .containerForMedicalSupport{
   max-width: 1290px;
   width: 100%;
   margin: 0 auto;
+}
+
+.first_section_MedicalSupport{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 45px;
+  &_left{
+    max-width: 520px;
+    width: 100%;
+    &_text{
+        h1 , h2{
+          font-family: $font-family, sans-serif;
+          font-size: 42px;
+          font-weight: 600;
+          line-height: 55px;
+          text-align: left;
+          color: #212121;
+        }
+      h2{
+        margin-top: 10px;
+        font-size: 30px;
+        line-height: 39px;
+      }
+    }
+    &_imgs{
+      margin-top: 90px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      img{
+        max-width: 410px;
+        width: 100%;
+        max-height: 230px;
+        height: 100%;
+        margin-bottom: 60px;
+      }
+    }
+  }
+  &_right{
+    max-width: 720px;
+    width: 100%;
+    &_list{
+        list-style-type: decimal;
+        color: #019C01;
+        font-family: Raleway, sans-serif;
+      li span{
+        display: block;
+        font-family: $font-family, sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        color: #000000;
+        margin-bottom: 10px;
+        h3{
+          display: inline;
+          font-family: $font-family, sans-serif;
+          font-size: 17px;
+          font-weight: 600;
+          line-height: 22px;
+          text-align: left;
+          color: #000000;
+        }
+      }
+      li{
+        margin-bottom: 30px;
+      }
+      &_list{
+        margin-left: 30px;
+        list-style-type: disc;
+        li {
+          margin-bottom: 0px;
+        }
+        &_text{
+          font-family: $font-family, sans-serif;
+          font-size: 17px;
+          font-weight: 400;
+          line-height: 22px;
+          text-align: left;
+          color: #000000;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
 }
