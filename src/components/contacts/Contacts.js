@@ -38,29 +38,38 @@ function Contacts() {
             <section className="second_section_contact">
                 <div className="containerContact">
                     <div className="second_section_contact_with_foto"></div>
-                    <div>
-                        <h2>Цель проект <span>HAND:</span></h2>
-                        <p>Формирование, на основе виртуального опыта и переживаний, знаний и навыков направленных на обдуманное, грамотное и предсказуемое поведение и действия при чрезвычайных проишествиях и ДТП.</p>
-                    </div>
-                    <div>
-                        <div className="">
-                            <p>Автор проекта</p>
-                            <p>«Help And Not Die»</p>
-                            <h2>Олег</h2>
-                            <h2>Башун</h2>
+                    <div className="second_section_contact_block">
+                        <div className="second_section_contact_left">
+                            <h2>Цель проект <span>HAND:</span></h2>
+                            <p>Формирование, на основе виртуального опыта и переживаний, знаний и навыков направленных
+                                на обдуманное, грамотное и предсказуемое поведение и действия при чрезвычайных
+                                проишествиях и ДТП.</p>
                         </div>
-                        <div className="">
-                            <p>Отвечаю онлайн</p>
-                            <div>
-                                <a href="*">
-                                    <img src={telegramm} alt="telegramm"/>
-                                </a>
-                                <a href="*">
-                                    <img src={watsapp} alt="watsapp"/>
-                                </a>
-                                <a href="*">
-                                    <img src={viber} alt="viber"/>
-                                </a>
+                        <div className="second_section_contact_right">
+                            <div className="second_section_contact_right_text">
+                                <p>Автор проекта</p>
+                                <p>«Help And Not Die»</p>
+                                <h2>Олег</h2>
+                                <h2>Башун</h2>
+                            </div>
+                            <div className="second_section_contact_right_with_link_and_text">
+                                <div className="second_section_contact_right_text_bottom">
+                                    <p>Отвечаю онлайн</p>
+                                    <div>
+                                        <a href="*">
+                                            <img src={telegramm} alt="telegramm"/>
+                                        </a>
+                                        <a href="*">
+                                            <img src={watsapp} alt="watsapp"/>
+                                        </a>
+                                        <a href="*">
+                                            <img src={viber} alt="viber"/>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className="second_section_contact_right_with_link">
+                                    <a href="mailto:AlehBashun@gmail.com">AlehBashun@gmail.com</a>
+                                </div>
                             </div>
                         </div>
                     </div>
