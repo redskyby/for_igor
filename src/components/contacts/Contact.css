@@ -1,0 +1,45 @@
+.containerContact {
+  max-width: 1290px;
+  width: 100%;
+  margin: 0 auto;
+}
+.containerContact h1 {
+  font-family: Raleway, sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #212121;
+}
+
+.first_section_contact {
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 30px 0 rgba(169, 189, 206, 0.2509803922);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.first_section_contact p {
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #212121;
+}
+.first_section_contact p span {
+  font-family: Raleway, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #019C01;
+}
+
+/*# sourceMappingURL=Contact.css.map */

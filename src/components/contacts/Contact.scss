@@ -1,0 +1,47 @@
+@import "../../utils/variables";
+
+.containerContact {
+  max-width: 1290px;
+  width: 100%;
+  margin: 0 auto;
+  h1{
+    font-family: $font-family, sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #212121;
+  }
+}
+
+.first_section_contact {
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 30px 0 #A9BDCE40;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  p {
+    font-family: $font-family, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #212121;
+
+    span {
+      font-family: $font-family, sans-serif;
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 39px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #019C01;
+    }
+  }
+}
