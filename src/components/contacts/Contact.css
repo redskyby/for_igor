@@ -2,6 +2,7 @@
   max-width: 1290px;
   width: 100%;
   margin: 0 auto;
+  position: relative;
 }
 .containerContact h1 {
   font-family: Raleway, sans-serif;
@@ -14,6 +15,8 @@
 }
 
 .first_section_contact {
+  margin-top: 40px;
+  padding-top: 40px;
   border: 1px solid #ffffff;
   border-radius: 20px;
   box-shadow: 0 4px 30px 0 rgba(169, 189, 206, 0.2509803922);
@@ -23,7 +26,14 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.first_section_contact p {
+.first_section_contact_block {
+  max-width: 337px;
+  width: 100%;
+}
+.first_section_contact_block_block {
+  margin-bottom: 40px;
+}
+.first_section_contact_block p {
   font-family: Raleway, sans-serif;
   font-size: 17px;
   font-weight: 400;
@@ -31,8 +41,9 @@
   letter-spacing: 0em;
   text-align: left;
   color: #212121;
+  margin-bottom: 10px;
 }
-.first_section_contact p span {
+.first_section_contact_block p span {
   font-family: Raleway, sans-serif;
   font-size: 30px;
   font-weight: 400;
@@ -40,6 +51,37 @@
   letter-spacing: 0em;
   text-align: left;
   color: #019C01;
+}
+.first_section_contact_block a {
+  text-decoration: none;
+}
+.first_section_contact_block a span {
+  font-family: Raleway, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #019C01;
+}
+
+.second_section_contact {
+  margin-top: 90px;
+  width: 100%;
+  height: 550px;
+  background-image: url("../../utils/img/imgs_main_page/f4/banner.png");
+  background-size: cover;
+  position: relative;
+}
+.second_section_contact_with_foto {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url("../../utils/img/imgs_main_page/f4/photo.png");
+  width: 424px;
+  height: 640px;
+  top: 19px;
+  right: 90px;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=Contact.css.map */
