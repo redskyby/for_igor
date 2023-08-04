@@ -14,7 +14,7 @@ function Navbar({items}) {
                     <NavLink className="menu_header_link" to={"/"}>Главная</NavLink>
                     <NavLink className="menu_header_link" to={"/dtpWillHappened"}>ДТП, что делать?</NavLink>
                     <NavLink className="menu_header_link" to={"/dtpWithAnimals"}>ДТП с животными</NavLink>
-                    <NavLink className="menu_header_link" to={"/medicalSupport"}>Медицинская поомщь при ДТП</NavLink>
+                    <NavLink className="menu_header_link" to={"/medicalSupport"}>Медицинская помощь при ДТП</NavLink>
                     <NavLink className="menu_header_link" to={"/contacts"}>Контакты</NavLink>
                 </div>
                 <div className="menu_header_text">

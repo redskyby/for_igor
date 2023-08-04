@@ -168,7 +168,8 @@
     }
   }
 }
-.third_section_ForMedicalSupport_align_right{
+
+.third_section_ForMedicalSupport_align_right {
   display: flex;
   justify-content: flex-end;
 }
@@ -180,6 +181,7 @@
   max-width: 970px;
   width: 100%;
   margin-top: 60px;
+
   &_main_title {
     max-width: 740px;
     width: 100%;
@@ -207,15 +209,220 @@
   }
 }
 
-.forth_section_MedicalSupport{
+.forth_section_MedicalSupport {
   margin-top: 200px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   border: 1px solid #ffffff;
   border-radius: 20px;
   box-shadow: 0 4px 20px 0 #A9BDCE40;
   background-color: #ffffff;
-  &_first_block{
+  padding-top: 100px;
+  padding-bottom: 120px;
+
+  &_first_block {
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    &_left {
+      display: flex;
+      align-items: flex-end;
+
+      img {
+        width: 420px;
+        height: auto;
+      }
+    }
+
+    &_right {
+      width: 700px;
+
+      h2 {
+        font-family: $font-family, sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 39px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+        margin-bottom: 20px;
+      }
+
+      p, h3 {
+        font-family: $font-family, sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+        margin-bottom: 10px;
+      }
+
+      h3 {
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+
+    }
+  }
+
+  &_second_block {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+    &_left {
+      img {
+        width: 410px;
+        height: auto;
+      }
+    }
+
+    &_right {
+      width: 700px;
+
+      h3 {
+        font-family: $font-family, sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+        margin-bottom: 20px;
+      }
+
+      p, h4 {
+        font-family: $font-family, sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+
+        span {
+          display: block;
+          margin-top: 30px;
+          font-family: $font-family, sans-serif;
+          color: #019C01;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 26px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+      }
+
+      h4 {
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      &_second {
+        margin-top: 40px;
+      }
+    }
+  }
+}
+
+.fifth_section_MedicalSupport {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+
+  &_block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    &_left {
+      max-width: 520px;
+      h2 {
+        font-family: $font-family, sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 39px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+      }
+      img{
+        max-width: 410px;
+      }
+    }
+
+    &_right {
+      max-width: 740px;
+
+      h2 {
+        font-family: $font-family, sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 39px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+        margin-bottom: 15px;
+      }
+
+      h3 {
+        font-family: $font-family, sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+      }
+
+      p {
+        font-family: $font-family, sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+        margin-bottom: 15px;
+      }
+
+      &_list {
+        margin-top: 10px;
+        list-style-type: disc;
+        color: #019C01;
+        margin-left: 20px;
+        font-family: Raleway, sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        li{
+          margin-bottom: 5px;
+        }
+        &_notice {
+          font-family: $font-family, sans-serif;
+          font-size: 17px;
+          font-weight: 600;
+          line-height: 1.5;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #000000;
+        }
+        span{
+          color: #000000;
+        }
+      }
+    }
   }
 }

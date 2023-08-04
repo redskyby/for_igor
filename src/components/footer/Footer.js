@@ -81,7 +81,7 @@ function Footer() {
                         <NavLink onClick={scrollToTop} className="container_second_link" to={"/"}>Главная</NavLink>
                         <NavLink onClick={scrollToTop} className="container_second_link" to={"/dtpWillHappened"}>ДТП, что делать?</NavLink>
                         <NavLink onClick={scrollToTop} className="container_second_link" to={"/dtpWithAnimals"}>ДТП с животными</NavLink>
-                        <NavLink onClick={scrollToTop} className="container_second_link" to={"/medicalSupport"}>Медицинская поомщь при
+                        <NavLink onClick={scrollToTop} className="container_second_link" to={"/medicalSupport"}>Медицинская помощь при
                             ДТП</NavLink>
                         <NavLink onClick={scrollToTop} className="container_second_link" to={"/contacts"}>Контакты</NavLink>
                     </div>

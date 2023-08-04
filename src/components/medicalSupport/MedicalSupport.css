@@ -187,13 +187,194 @@
   margin-top: 200px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   border: 1px solid #ffffff;
   border-radius: 20px;
   box-shadow: 0 4px 20px 0 rgba(169, 189, 206, 0.2509803922);
   background-color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 120px;
 }
 .forth_section_MedicalSupport_first_block {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.forth_section_MedicalSupport_first_block_left {
+  display: flex;
+  align-items: flex-end;
+}
+.forth_section_MedicalSupport_first_block_left img {
+  width: 420px;
+  height: auto;
+}
+.forth_section_MedicalSupport_first_block_right {
+  width: 700px;
+}
+.forth_section_MedicalSupport_first_block_right h2 {
+  font-family: Raleway, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.forth_section_MedicalSupport_first_block_right p, .forth_section_MedicalSupport_first_block_right h3 {
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.forth_section_MedicalSupport_first_block_right h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.forth_section_MedicalSupport_second_block {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.forth_section_MedicalSupport_second_block_left img {
+  width: 410px;
+  height: auto;
+}
+.forth_section_MedicalSupport_second_block_right {
+  width: 700px;
+}
+.forth_section_MedicalSupport_second_block_right h3 {
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.forth_section_MedicalSupport_second_block_right p, .forth_section_MedicalSupport_second_block_right h4 {
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.forth_section_MedicalSupport_second_block_right p span, .forth_section_MedicalSupport_second_block_right h4 span {
+  display: block;
+  margin-top: 30px;
+  font-family: Raleway, sans-serif;
+  color: #019C01;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.forth_section_MedicalSupport_second_block_right h4 {
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.forth_section_MedicalSupport_second_block_right_second {
+  margin-top: 40px;
+}
+
+.fifth_section_MedicalSupport {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.fifth_section_MedicalSupport_block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.fifth_section_MedicalSupport_block_left {
+  max-width: 520px;
+}
+.fifth_section_MedicalSupport_block_left h2 {
+  font-family: Raleway, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.fifth_section_MedicalSupport_block_left img {
+  max-width: 410px;
+}
+.fifth_section_MedicalSupport_block_right {
+  max-width: 740px;
+}
+.fifth_section_MedicalSupport_block_right h2 {
+  font-family: Raleway, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.fifth_section_MedicalSupport_block_right h3 {
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.fifth_section_MedicalSupport_block_right p {
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.fifth_section_MedicalSupport_block_right_list {
+  margin-top: 10px;
+  list-style-type: disc;
+  color: #019C01;
+  margin-left: 20px;
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+.fifth_section_MedicalSupport_block_right_list li {
+  margin-bottom: 5px;
+}
+.fifth_section_MedicalSupport_block_right_list_notice {
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.fifth_section_MedicalSupport_block_right_list span {
+  color: #000000;
 }
 
 /*# sourceMappingURL=MedicalSupport.css.map */
