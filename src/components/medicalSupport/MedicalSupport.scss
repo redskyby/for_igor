@@ -348,6 +348,8 @@
     margin-bottom: 20px;
     &_left {
       max-width: 520px;
+      width: 100%;
+
       h2 {
         font-family: $font-family, sans-serif;
         font-size: 30px;
@@ -359,6 +361,7 @@
       }
       img{
         max-width: 410px;
+        margin:8% 10px;
       }
     }
 

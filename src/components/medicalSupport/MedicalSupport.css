@@ -305,6 +305,7 @@
 }
 .fifth_section_MedicalSupport_block_left {
   max-width: 520px;
+  width: 100%;
 }
 .fifth_section_MedicalSupport_block_left h2 {
   font-family: Raleway, sans-serif;
@@ -317,6 +318,7 @@
 }
 .fifth_section_MedicalSupport_block_left img {
   max-width: 410px;
+  margin: 8% 10px;
 }
 .fifth_section_MedicalSupport_block_right {
   max-width: 740px;

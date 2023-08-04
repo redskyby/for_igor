@@ -286,7 +286,7 @@ function MedicalSupport() {
                     </div>
 
                     <div className="fifth_section_MedicalSupport_block">
-                        <div className="fifth_section_MedicalSupport_block_left">
+                        <div className="fifth_section_MedicalSupport_block_left align_img">
                             <img src={img11} alt="MedicalSupport"/>
                         </div>
                         <div className="fifth_section_MedicalSupport_block_right">
@@ -390,7 +390,7 @@ function MedicalSupport() {
                     </div>
 
                     <div className="fifth_section_MedicalSupport_block">
-                        <div className="fifth_section_MedicalSupport_block_left">
+                        <div className="fifth_section_MedicalSupport_block_left align_img">
                             <img src={img15} alt="MedicalSupport"/>
                         </div>
                         <div className="fifth_section_MedicalSupport_block_right">
