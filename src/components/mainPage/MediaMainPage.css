@@ -51,6 +51,12 @@
     height: auto;
     max-height: 127px;
   }
+  .first_section_img_block {
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
   .first_section_with_img {
     height: 316px;
   }
@@ -58,6 +64,9 @@
     margin: 20px auto 0;
     width: 100%;
     padding: 0px 10px;
+  }
+  .first_section_with_button .button {
+    width: 100%;
   }
   .button {
     width: 100%;
