@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import './MediaFooter.css';
 import img32 from "../../utils/img/imgs_main_page/f2/image32.png";
-import Logo from "../../utils/img/logo.svg";
+import Logo from "../../utils/img/img_navBar/logo.svg";
 import Telephone from "../../utils/img/imgs_footer/icon_telephone.png";
 import Email from "../../utils/img/imgs_footer/icon_email.png";
 import Button from "../../utils/button/Button";

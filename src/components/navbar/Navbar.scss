@@ -10,6 +10,9 @@
   &_header_links_with_text{
     width: 100%;
     max-width: 960px;
+    &_mobile_menu{
+      display: none;
+    }
   }
   &_header_links {
     background-color: #FFFFFF;
@@ -18,7 +21,6 @@
     height: 100%;
     width: 100%;
     max-width: 960px;
-
     display: flex;
     flex-direction: row;
     justify-content: space-around;

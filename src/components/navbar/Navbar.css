@@ -10,6 +10,9 @@
   width: 100%;
   max-width: 960px;
 }
+.menu_header_links_with_text_mobile_menu {
+  display: none;
+}
 .menu_header_links {
   background-color: #FFFFFF;
   border-radius: 10px;
