@@ -26,7 +26,7 @@ function Form() {
                         checked={selectedOption === 'option1'}
                         onChange={handleOptionChange}
                     />
-                    Отличная и интересная идея
+                    Отличная и интересная идея!
                 </label>
             </div>
             <div>

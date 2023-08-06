@@ -44,7 +44,8 @@
     &_with_text_and_button {
       display: flex;
       flex-direction: column;
-      flex-basis: 457px;
+      max-width: 457px;
+      width: 100%;
       margin-left: 40px;
 
       h2 {
@@ -168,13 +169,18 @@
     display: flex;
     justify-content: space-between;
 
-    &_text p {
-      color: #6C6C6C;
-      font-family: $font-family, sans-serif;
-      font-size: 17px;
-      font-weight: 400;
-      line-height: 20px;
-      text-align: left;
+    &_text {
+      &_in_footer{
+        display: none;
+      }
+      p {
+        color: #6C6C6C;
+        font-family: $font-family, sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+      }
     }
 
     &_links {

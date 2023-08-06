@@ -39,7 +39,8 @@
 .footer_first_section_with_text_and_button {
   display: flex;
   flex-direction: column;
-  flex-basis: 457px;
+  max-width: 457px;
+  width: 100%;
   margin-left: 40px;
 }
 .footer_first_section_with_text_and_button h2 {
@@ -145,6 +146,9 @@
   margin: 60px auto 60px;
   display: flex;
   justify-content: space-between;
+}
+.footer .container_second_text_in_footer {
+  display: none;
 }
 .footer .container_second_text p {
   color: #6C6C6C;

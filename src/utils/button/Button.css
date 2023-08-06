@@ -1,5 +1,4 @@
 .button {
-  border-radius: 5px;
   background-color: #019C01;
   padding: 11px 30px 11px 30px;
   font-family: Raleway, sans-serif;
@@ -7,7 +6,9 @@
   font-size: 17px;
   line-height: 22px;
   color: #FFFFFF;
-  border: none;
+  border: 1px solid #2FD22F;
+  border-radius: 5px;
+  box-shadow: 0px 4px 30px 0px rgba(1, 156, 1, 0.2509803922);
   cursor: pointer;
 }
 .button:hover {

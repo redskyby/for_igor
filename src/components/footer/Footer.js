@@ -1,5 +1,6 @@
 import React from 'react';
-import './Footer.css'
+import './Footer.css';
+import './MediaFooter.css';
 import img32 from "../../utils/img/imgs_main_page/f2/image32.png";
 import Logo from "../../utils/img/logo.svg";
 import Telephone from "../../utils/img/imgs_footer/icon_telephone.png";
@@ -31,10 +32,12 @@ function Footer() {
                             HAND</p>
                         <p className="footer_first_section_with_text_second">Заготовка игры для ознакомления, в архиве
                             rar.78Mb с сайта файлообменника ru.files.fm</p>
-                        <Button type="button" placeholder="скачать игру" name="Скачать игру"/>
+                        <div className="footer_button">
+                            <Button type="button" placeholder="скачать игру" name="Скачать игру"/>
+                        </div>
                     </div>
                 </div>
-                <div>
+                <div className="footer_first_section_with_text_img">
                     <img src={Logo} alt="Логотип"/>
                 </div>
             </section>
@@ -75,6 +78,7 @@ function Footer() {
                 </div>
                 <div className="container_second">
                     <div className="container_second_text">
+                        <img src={Logo} alt="Logo" className="container_second_text_in_footer"/>
                         <p>© Башун Олег Гарикович 2018–2023</p>
                     </div>
                     <div className="container_second_links">
