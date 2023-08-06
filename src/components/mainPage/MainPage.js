@@ -1,5 +1,6 @@
 import React from 'react';
 import "./MainPage.css";
+import "./MediaMainPage.css";
 import Button from "../../utils/button/Button";
 import img from "../../utils/img/imgs_main_page/f1/img.png";
 import img1 from "../../utils/img/imgs_main_page/f1/img(1).png";
@@ -45,12 +46,16 @@ function MainPage() {
                 </div>
                 <div className="first_section_with_img_and_button">
                     <div className="first_section_with_img">
-                        <img src={img} alt="img"/>
-                        <img src={img1} alt="img"/>
-                        <img src={img2} alt="img"/>
-                        <img src={img3} alt="img"/>
-                        <img src={img4} alt="img"/>
-                        <img src={img5} alt="img"/>
+                        <div className="first_section_img_block">
+                            <img src={img} alt="img"/>
+                            <img src={img1} alt="img"/>
+                            <img src={img2} alt="img"/>
+                        </div>
+                        <div className="first_section_img_block">
+                            <img src={img3} alt="img"/>
+                            <img src={img4} alt="img"/>
+                            <img src={img5} alt="img"/>
+                        </div>
                     </div>
                     <div className="first_section_with_button">
                         <Button type="button" placeholder="скачать игру" name="Скачать игру"/>

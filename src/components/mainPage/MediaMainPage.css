@@ -1,0 +1,100 @@
+@media (max-width: 360px) {
+  .first_section_block1_left {
+    max-width: 100%;
+  }
+  .first_section_block1_left h1 {
+    font-size: 28px;
+    line-height: 36.4px;
+  }
+  .first_section_block1_left h2 {
+    margin-top: 30px;
+  }
+  .first_section_block1_left p {
+    margin-left: 0px;
+  }
+  .first_section_block2_right h2 {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  .first_section_block2_right {
+    max-width: 100%;
+  }
+  .first_section_block2_right_text {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  .first_section_block2_right_text p {
+    margin-left: 10px;
+  }
+  .first_section_block2_right_text {
+    margin-top: 30px;
+    margin-left: 0px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    width: 100%;
+  }
+  .first_section_block2_right_text:before {
+    display: none;
+  }
+  .first_section_with_img_and_button {
+    margin-left: 0;
+    margin-top: 50px;
+  }
+  .first_section_with_img {
+    align-items: initial;
+  }
+  .first_section_with_img img {
+    background-size: cover;
+    max-width: 150px;
+    height: auto;
+    max-height: 127px;
+  }
+  .first_section_with_img {
+    height: 316px;
+  }
+  .first_section_with_button {
+    margin: 20px auto 0;
+    width: 100%;
+  }
+  .button {
+    width: 100%;
+  }
+  .second_section {
+    margin: 60px auto 0;
+  }
+  .second_section h2 {
+    font-size: 24px;
+    text-align: left;
+    line-height: 31px;
+  }
+  .second_section_with_img {
+    flex-wrap: wrap;
+  }
+  .second_section_with_img img {
+    max-width: 320px;
+    max-height: 219px;
+    margin-bottom: 10px;
+  }
+  .second_section_with_text {
+    margin-top: 25px;
+  }
+  .second_section_with_button {
+    width: 50%;
+    margin: 45px auto;
+  }
+  .third_section_with_video {
+    margin: 600px auto 0;
+  }
+  .third_section_with_video video {
+    max-width: 350px;
+  }
+  .fourth_section {
+    margin: 100px auto 0;
+    height: 816px;
+  }
+  .fourth_section_with_form {
+    margin: 0;
+  }
+}
+
+/*# sourceMappingURL=MediaMainPage.css.map */

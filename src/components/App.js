@@ -8,7 +8,7 @@ import DtpWillHappened from "./dtpWillHappened/DtpWillHappened";
 import MedicalSupport from "./medicalSupport/MedicalSupport";
 import DtpWithAnimals from "./dtpWithAnimals/DtpWithAnimals";
 import Contacts from "./contacts/Contacts";
-
+import "./App.css"
 function App() {
     return (
         <BrowserRouter>
