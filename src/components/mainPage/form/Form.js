@@ -53,7 +53,7 @@ function Form() {
                     Уже такое есть
                 </label>
             </div>
-            <div>
+            <div className="form_in_360px">
                 <button type="submit" className="form_button">Отправить</button>
                 <Button type="button" placeholder="Давай, поиграй" name="Давай, поиграй" />
             </div>

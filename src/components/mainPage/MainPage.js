@@ -149,17 +149,17 @@ function MainPage() {
                     <div className="fifth_section_card">
                         <img src={card2} alt="Сайт МЧС РБ"/>
                         <p>Сайт МЧС РБ</p>
-                        <a href="*">Перейти</a>
+                        <a href="*">Читать</a>
                     </div>
                     <div className="fifth_section_card">
                         <img src={card3} alt="Сайт МВД РБ"/>
                         <p>Сайт МВД РБ</p>
-                        <a href="*">Перейти</a>
+                        <a href="*">Читать</a>
                     </div>
                     <div className="fifth_section_card">
                         <img src={card4} alt="Проект ”Мой ключ”"/>
                         <p>Проект <br/>”Мой ключ”</p>
-                        <a href="*">Посмотреть</a>
+                        <a href="*">Читать</a>
                     </div>
                 </div>
             </section>

@@ -1,4 +1,5 @@
 @import "../../../utils/variables";
+
 .form{
   margin-top: 30px;
   &_input{
@@ -49,4 +50,18 @@
     padding-bottom: 5px;
     cursor: pointer;
   }
+}
+
+@media (max-width: 360px) {
+
+  .form_button{
+    margin: 0;
+    padding: 11px 20px 11px 20px;
+  }
+  .form_in_360px{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
 }

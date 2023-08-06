@@ -1,6 +1,7 @@
 @media (max-width: 360px) {
   .first_section_block1_left {
     max-width: 100%;
+    padding: 0px 10px;
   }
   .first_section_block1_left h1 {
     font-size: 28px;
@@ -18,6 +19,7 @@
   }
   .first_section_block2_right {
     max-width: 100%;
+    padding: 0px 10px;
   }
   .first_section_block2_right_text {
     margin-top: 30px;
@@ -55,12 +57,14 @@
   .first_section_with_button {
     margin: 20px auto 0;
     width: 100%;
+    padding: 0px 10px;
   }
   .button {
     width: 100%;
   }
   .second_section {
     margin: 60px auto 0;
+    padding: 0px 10px;
   }
   .second_section h2 {
     font-size: 24px;
@@ -86,7 +90,7 @@
     margin: 600px auto 0;
   }
   .third_section_with_video video {
-    max-width: 350px;
+    max-width: 360px;
   }
   .fourth_section {
     margin: 100px auto 0;
@@ -94,6 +98,60 @@
   }
   .fourth_section_with_form {
     margin: 0;
+  }
+  .fourth_section .container {
+    flex-direction: column;
+    padding: 0 10px;
+    margin: 50px auto 0;
+  }
+  .fourth_section .container_with_foto {
+    width: 329px;
+    height: 492px;
+    right: -8px;
+    z-index: 1;
+    top: 88%;
+    background-size: contain;
+  }
+  .button {
+    padding: 11px 20px;
+    width: auto;
+  }
+  .fourth_section_with_form h1 {
+    font-size: 24px;
+  }
+  .fourth_section_with_text_bottom_with_links {
+    max-width: 253px;
+  }
+  .fourth_section_with_text_bottom {
+    right: -124%;
+    bottom: -290%;
+  }
+  .fourth_section_with_text {
+    margin-right: 0px;
+    margin-top: 30px;
+  }
+  .fifth_section {
+    margin: 100px auto 0;
+    padding: 0 10px;
+  }
+  .fifth_section h2 {
+    font-size: 24px;
+    text-align: left;
+  }
+  .fifth_section_with_cards {
+    margin-top: 30px;
+    justify-content: space-around;
+  }
+  .fifth_section_card {
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  .fifth_section_card:nth-child(2n) {
+    margin-top: 0px;
+  }
+  .fifth_section_card img {
+    width: 90px;
+    height: 80px;
   }
 }
 
