@@ -1,5 +1,6 @@
 import React from 'react';
 import "./DtpWillHappened.css";
+import "./MediaDtpWillHappened.css";
 import Icon_light from "../../utils/img/img_dtpWillHappened/icon_light.png";
 import Frame from "../../utils/img/img_dtpWillHappened/Frame.png";
 import Icon from "../../utils/img/img_dtpWillHappened/icon.png";
@@ -223,7 +224,6 @@ function DtpWillHappened() {
                             <div className="container_table_block_number_and_img">
                                 <p className="container_table_block_number">3</p>
                                 <img src={Icon6} alt="Icon6"/>
-                                <img src="" alt=""/>
                             </div>
                             <div className="container_table_for_title">
                                 <h2 className="container_table_block_title">Если все участники аварии согласны с
