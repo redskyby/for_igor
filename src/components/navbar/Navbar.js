@@ -4,6 +4,7 @@ import "./MediaNavbar.css";
 import {NavLink} from "react-router-dom";
 import Logo from "../../utils/img/img_navBar/logo.svg";
 import Mobile_menu from "../../utils/img/img_navBar/icon_menu.png";
+import Mobile_close from "../../utils/img/img_navBar/align_right.png";
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -25,16 +26,25 @@ function Navbar() {
                     <NavLink className="menu_header_link" to={"/contacts"}>Контакты</NavLink>
                 </div>
                 <div className="menu_header_links_with_text_mobile_menu" >
-                    <img
+                    {!isOpen ? <img
                         src={Mobile_menu}
                         alt="Menu"
                         onClick={(e)=> {
                             e.stopPropagation()
-                            document.body.classList.toggle('scroll');
                             setIsOpen(!isOpen)
                         }
                     }
                     />
+                        : <img
+                            src={Mobile_close}
+                            alt="Menu"
+                            onClick={(e)=> {
+                                e.stopPropagation()
+                                setIsOpen(!isOpen)
+                            }
+                            }
+                        />
+                    }
                     <div className={isOpen ?"blur_mobile_nav active_menu" : "blur_mobile_nav"}/>
                         <div className={isOpen ? "menu_header_links_mobile active_menu" : "menu_header_links_mobile"}
                             onClick={()=> setIsOpen(false)}
