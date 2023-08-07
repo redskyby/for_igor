@@ -23,6 +23,9 @@
   text-align: left;
   color: #212121;
 }
+.container_dtpWithAnimal_second_title span {
+  color: #0063BA;
+}
 .container_dtpWithAnimal_third_title {
   font-family: Raleway, sans-serif;
   font-size: 20px;
@@ -87,6 +90,7 @@
   border: 1px solid #FFFFFF;
   background-color: #FFFFFF;
   position: relative;
+  box-shadow: 0px 4px 30px 0px rgba(169, 189, 206, 0.2509803922);
 }
 .first_section_dtpWithAnimal_right_block:after {
   content: "";

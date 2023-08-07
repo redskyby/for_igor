@@ -1,0 +1,59 @@
+@media (max-width: 360px) {
+  .container_dtpWithAnimal{
+    margin: 30px auto 0;
+    padding: 0 10px;
+  }
+  .container_dtpWithAnimal_main_title{
+    font-size: 28px;
+    margin-bottom: 20px;
+    line-height: 36px;
+  }
+  .container_dtpWithAnimal_third_title{
+    font-size: 17px;
+    line-height: 21px;
+  }
+  .first_section_dtpWithAnimal_left_list{
+    margin-left: 18px;
+    margin-bottom: 30px;
+  }
+  .first_section_dtpWithAnimal_right{
+    margin-bottom: 30px;
+  }
+  .first_section_dtpWithAnimal_right_first_img{
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .first_section_dtpWithAnimal_right_second_img{
+    margin-bottom: 10px;
+  }
+  .first_section_dtpWithAnimal_right_block::after{
+    display: none;
+  }
+  .first_section_dtpWithAnimal_right_block{
+      border-radius: 20px;
+  }
+  .second_section_dtpWithAnimal {
+    border-radius: 0px;
+  }
+  .second_section_dtpWithAnimal_right_block {
+    margin-top: 30px;
+    align-items: normal;
+    width: auto;
+
+    img {
+      max-width: 320px;
+      margin-bottom: 10px;
+    }
+  }
+  .second_section_dtpWithAnimal_left_block{
+    margin-top: 30px;
+  }
+  .container_dtpWithAnimal_second_title {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .second_section_dtpWithAnimal_left_block_text{
+    margin-top: 30px;
+  }
+}

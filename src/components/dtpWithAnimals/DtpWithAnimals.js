@@ -1,5 +1,6 @@
 import React from 'react';
 import "./DtpWithAnimals.css";
+import "./MediaDtpWithAnimals.css";
 import Table from "./TableAnimal/Table";
 import {data, data1} from "./DataForTable";
 import Img from "../../utils/img/img_dtpWithAnimals/img.png";
@@ -84,7 +85,7 @@ function DtpWithAnimals() {
             </section>
             <section className="container_dtpWithAnimal third_section_dtpWithAnimal">
                 <div className="third_section_dtpWithAnimal_left">
-                    <h2 className="container_dtpWithAnimal_second_title">ДТП с дикими животными</h2>
+                    <h2 className="container_dtpWithAnimal_second_title">ДТП с <span>дикими</span> животными</h2>
                     <div className="third_section_dtpWithAnimal_left_text_top">
                         <p>В результате ДТП животное может погибнуть. В таком случае, если водитель будет признан
                             виновным в этом ДТП, то ему нужно будет возместить ущерб от гибели сбитого животного.
