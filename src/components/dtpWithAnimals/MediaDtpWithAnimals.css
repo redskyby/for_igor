@@ -69,6 +69,12 @@
   .forth_section_dtpWithAnimal_main_title {
     max-width: 100%;
   }
+  .for_mobile thead {
+    display: none;
+  }
+  .for_mobile .table_align_text_left {
+    width: 67%;
+  }
 }
 
 /*# sourceMappingURL=MediaDtpWithAnimals.css.map */

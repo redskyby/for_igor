@@ -129,7 +129,7 @@ function DtpWithAnimals() {
                     <div className="forth_section_dtpWithAnimal_with_table">
                         <Table data={data}/>
                     </div>
-                    <div className="forth_section_dtpWithAnimal_with_table">
+                    <div className="forth_section_dtpWithAnimal_with_table for_mobile">
                         <Table data={data1}/>
                     </div>
                 </div>

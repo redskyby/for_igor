@@ -12,9 +12,9 @@ const Table = ({data}) => {
             </tr>
             </thead>
             <tbody>
-            {data.map((item, index) => (
-                <tr key={index}>
-                    <td className="table_align_text_center">{index + 1}</td>
+            {data.map((item) => (
+                <tr key={item.id}>
+                    <td className="table_align_text_center">{item.id}</td>
                     <td  className="table_align_text_left">{item.animal}</td>
                     <td className="table_align_text_right price">{item.price}</td>
                 </tr>

@@ -262,6 +262,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 210px;
+
   &_main_title{
     max-width: 60%;
     margin-bottom: 20px;
@@ -279,4 +280,5 @@
   &_with_tables {
     padding: 20px;
   }
+
 }
