@@ -1,5 +1,6 @@
 import React from 'react';
 import "./MedicalSupport.css";
+import "./MediaMedicalSupport.css";
 import BlockForMedicalSupport from "./BlockForMedicalSupport/BlockForMedicalSupport";
 import {dataForBlock} from "./DataForBlock";
 import img1 from "../../utils/img/img_MedicalSupport/s1/img01.png";
