@@ -8,7 +8,7 @@ import Img1 from "../../utils/img/img_dtpWithAnimals/img(1).png";
 import Img2 from "../../utils/img/img_dtpWithAnimals/img03.png";
 import Img3 from "../../utils/img/img_dtpWithAnimals/img02.png";
 import Img4 from "../../utils/img/img_dtpWithAnimals/img01.png";
-import Img5 from "../../utils/img/img_dtpWithAnimals/img_1.png";
+import Img5 from "../../utils/img/img_dtpWithAnimals/img(1).png";
 import Img6 from "../../utils/img/img_dtpWithAnimals/img_4.png";
 import Img7 from "../../utils/img/img_dtpWithAnimals/img_2.png";
 import Img8 from "../../utils/img/img_dtpWithAnimals/img_3.png";

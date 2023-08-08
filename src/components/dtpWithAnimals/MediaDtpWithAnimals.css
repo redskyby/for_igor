@@ -55,6 +55,20 @@
   .second_section_dtpWithAnimal_left_block_text {
     margin-top: 30px;
   }
+  .third_section_dtpWithAnimal_left_text_bottom_block {
+    padding: 15px 20px 15px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .third_section_dtpWithAnimal_right {
+    align-items: inherit;
+  }
+  .third_section_dtpWithAnimal_right img {
+    margin-bottom: 15px;
+  }
+  .forth_section_dtpWithAnimal_main_title {
+    max-width: 100%;
+  }
 }
 
 /*# sourceMappingURL=MediaDtpWithAnimals.css.map */
