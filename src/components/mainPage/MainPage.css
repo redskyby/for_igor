@@ -68,12 +68,15 @@
   content: "";
   height: 100%;
   background-color: #FFFFFF;
-  width: 100%;
+  width: 1000%;
   left: 100%;
 }
 .first_section_block2_right_text p {
   margin-left: 40px;
   background-color: #FFFFFF;
+}
+.first_section_block2_right_text_box_shadow {
+  box-shadow: 0px 4px 30px 0px rgba(169, 189, 206, 0.2509803922);
 }
 .first_section_with_img_and_button {
   display: flex;

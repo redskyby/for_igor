@@ -38,7 +38,7 @@ function MainPage() {
                     </div>
                     <div className="first_section_block2_right">
                         <h2>Готовы ли вы?</h2>
-                        <div className="first_section_block2_right_text">
+                        <div className="first_section_block2_right_text first_section_block2_right_text_box_shadow">
                             <p className="first_section_text">Стань Героем в чрезвычайной ситуации!</p>
                             <p className="first_section_text">Грамотно спасать других и не погибнуть самому!</p>
                         </div>
