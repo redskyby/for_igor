@@ -83,7 +83,6 @@ function DtpWillHappened() {
                         </div>
 
                         <div className="container_table_right">
-
                             <div>
                                 <div className="container_table_block">
                                     <div className="container_table_block_number_and_img">
@@ -157,7 +156,7 @@ function DtpWillHappened() {
                             <h3>Дозвонившись в ГАИ, автомобилист должен сообщить оператору следующую информацию</h3>
                             <div>
                                 <ol className="second_section_dttWillHappened_second_block_list">
-                                    <li><span>Место происшествия:</span>
+                                    <li className="second_section_dttWillHappened_second_block_list_with_number"><span>Место происшествия:</span>
                                         <ul className="second_section_dttWillHappened_second_block_list_list">
                                             <li><span>если ДТП произошло в городе, следует сообщить адрес</span></li>
                                             <li><span>если авария произошла за чертой города, то сообщается название трассы и
@@ -170,8 +169,8 @@ function DtpWillHappened() {
                                             </span></li>
                                         </ul>
                                     </li>
-                                    <li><span>Количество участников происшествия</span></li>
-                                    <li><span>Наличие пострадавших и их количество</span></li>
+                                    <li className="second_section_dttWillHappened_second_block_list_with_number"><span>Количество участников происшествия</span></li>
+                                    <li className="second_section_dttWillHappened_second_block_list_with_number"><span>Наличие пострадавших и их количество</span></li>
                                 </ol>
                             </div>
 

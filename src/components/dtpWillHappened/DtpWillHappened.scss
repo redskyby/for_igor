@@ -184,33 +184,46 @@
         margin-bottom: 30px;
       }
     }
-    &_list{
-      list-style-type: decimal;
+
+    &_list {
+      list-style-type: none;
+      counter-reset: my-counter;
       color: #019C01;
       font-family: $font-family, sans-serif;
       font-size: 20px;
       font-weight: 600;
       line-height: 1.5;
       text-align: left;
-      margin-left: 20px;
       margin-bottom: 30px;
-      &_list{
+      &_with_number:before {
+        content: counter(my-counter);
+        counter-increment: my-counter;
+        font-family: $font-family, sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.5;
+        text-align: left;
+        margin-right: 10px;
+      }
+
+      &_list {
         list-style-type: disc;
         margin-left: 20px;
         line-height: 1.5;
       }
 
-      li span{
+      li span {
         color: #FFFFFF;
         font-family: $font-family, sans-serif;
         font-size: 17px;
-        font-weight: 600;
+        font-weight: 400;
         line-height: 22px;
         text-align: left;
       }
+
     }
 
-    &_text_after_block{
+    &_text_after_block {
       border: 1px solid #6C6C6C;
       padding: 20px 30px 20px 30px;
       border-radius: 20px;
@@ -227,7 +240,7 @@
 
 .third_section_dtpWillHappened {
   max-width: 1290px;
-  margin: 100px auto 0;
+  margin: 100px auto 70px;
 
   &_main_title {
     max-width: 70%;

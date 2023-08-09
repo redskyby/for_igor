@@ -28,7 +28,7 @@ function DtpWithAnimals() {
 
                         <p className="first_section_dtpWithAnimal_left_text">В связи с этим водитель должен:</p>
                     <div className="first_section_dtpWithAnimal_left_list">
-                        <ol>
+                        <ol className="first_section_dtpWithAnimal_left_list_ol">
                             <li><span>остановить автомобиль сразу после столкновения</span></li>
                             <li><span>включить аварийную сигнализацию и выставить знак аварийной остановки. <p className="first_section_dtpWithAnimal_left_list_notice">На заметку!</p> <p>Знак нужно выставить на расстоянии не менее 15 метров от автомобиля в населенном пункте и не менее 40 метров — вне населенных пунктов.</p></span>
                             </li>

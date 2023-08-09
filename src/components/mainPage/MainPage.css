@@ -59,7 +59,7 @@
   margin-top: 115px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-left: 25px;
   position: relative;
 }
@@ -344,6 +344,7 @@
   justify-content: space-around;
   border: none;
   border-radius: 20px;
+  box-shadow: 0px 4px 20px 0px rgba(169, 189, 206, 0.2509803922);
 }
 .fifth_section_card:nth-child(2n) {
   margin-top: 40px;

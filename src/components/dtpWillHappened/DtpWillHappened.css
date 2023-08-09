@@ -177,15 +177,25 @@
   margin-bottom: 30px;
 }
 .second_section_dttWillHappened_second_block_list {
-  list-style-type: decimal;
+  list-style-type: none;
+  counter-reset: my-counter;
   color: #019C01;
   font-family: Raleway, sans-serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 1.5;
   text-align: left;
-  margin-left: 20px;
   margin-bottom: 30px;
+}
+.second_section_dttWillHappened_second_block_list_with_number:before {
+  content: counter(my-counter);
+  counter-increment: my-counter;
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: left;
+  margin-right: 10px;
 }
 .second_section_dttWillHappened_second_block_list_list {
   list-style-type: disc;
@@ -196,7 +206,7 @@
   color: #FFFFFF;
   font-family: Raleway, sans-serif;
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 22px;
   text-align: left;
 }
@@ -215,7 +225,7 @@
 
 .third_section_dtpWillHappened {
   max-width: 1290px;
-  margin: 100px auto 0;
+  margin: 100px auto 70px;
 }
 .third_section_dtpWillHappened_main_title {
   max-width: 70%;

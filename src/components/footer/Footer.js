@@ -45,7 +45,7 @@ function Footer() {
                 <div className="container_first">
                     <div className="container_first_block">
                         <div className="container_first_block_text">
-                            <img src={Email} alt="email"/>
+                            <img src={Telephone} alt="номер телефона"/>
                             <a className="container_first_block_telephone"
                                href="tel:+375 29 758–50–06">+375 29 758–50–06</a>
                         </div>
@@ -56,7 +56,7 @@ function Footer() {
                     </div>
                     <div className="container_first_block">
                         <div className="container_first_block_text">
-                            <img src={Telephone} alt="номер телефона"/>
+                            <img src={Email} alt="email"/>
                             <a className="container_first_block_telephone"
                                href="mailto:AlehBashun@gmail.com">AlehBashun@gmail.com</a>
                         </div>
@@ -69,7 +69,7 @@ function Footer() {
                         <div className="container_first_block_text">
                             <h3>Поддержать проект</h3>
                         </div>
-                        <div className="container_first_block_text_bottom">
+                        <div className="container_first_block_text_bottom container_first_block_text_bottom_last">
                             <p className="container_first_block_text_p">Номер карты 4320370045671627 04/26</p>
                             <p className="container_first_block_text_p">Для ЕРИП 964221025444/1627</p>
                             <p className="container_first_block_text_p">IBAN BY47BAPB30140000964221025444</p>

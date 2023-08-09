@@ -27,6 +27,7 @@
   left: 18%;
   border-radius: 20px;
   z-index: -1;
+  box-shadow: 0px 4px 20px 0px rgba(169, 189, 206, 0.2509803922);
 }
 .footer_first_section_with_img {
   margin-left: 9%;
@@ -97,7 +98,8 @@
   flex-wrap: wrap;
 }
 .footer .container_first_block {
-  flex-basis: 410px;
+  max-width: 410px;
+  width: 100%;
   border: 1px solid #6C6C6C;
   border-radius: 20px;
   text-align: center;
@@ -119,6 +121,12 @@
 .footer .container_first_block_text_bottom {
   margin-top: 15px;
 }
+.footer .container_first_block_text_bottom_last h3 {
+  margin-bottom: 10px;
+}
+.footer .container_first_block_text_bottom_last p {
+  margin-bottom: 10px;
+}
 .footer .container_first_block_text_p {
   color: #FFFFFF;
   font-family: Raleway, sans-serif;
@@ -128,8 +136,9 @@
   text-align: center;
 }
 .footer .container_first_block img {
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
 .footer .container_first_block_telephone {
   color: #FFFFFF;

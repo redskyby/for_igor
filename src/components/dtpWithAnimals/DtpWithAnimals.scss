@@ -55,21 +55,39 @@
   }
 
   &_list{
-    margin-left: 35px;
+    margin-left: 20px;
     margin-top: 10px;
+
     ol{
-      list-style-type: decimal;
+      list-style-type: none;
+      counter-reset: item;
       color: #019C01;
       font-family: $font-family, sans-serif;
       font-size: 17px;
-      font-weight: 400;
+      font-weight: 600;
       line-height: 1.5;
       text-align: left;
-      li span{
-        color: #3A3A3A;
+
+      li {
+        &:before{
+          content: counter(item) " ";
+          counter-increment: item;
+          margin-right: 5px;
+          font-weight: 600;
+          font-size: 17px;
+        }
+        span {
+          color: #3A3A3A;
+          font-family: $font-family, sans-serif;
+          font-size: 17px;
+          font-weight: 400;
+          line-height: 1.5;
+          text-align: left;
+        }
       }
     }
-    &_notice{
+
+    &_notice {
       color: #F12F2F;
     }
   }
