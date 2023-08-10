@@ -55,16 +55,24 @@
     width: 100%;
 
     &_list {
-      list-style-type: decimal;
+      list-style-type: none;
+      counter-reset: my-counter;
       color: #019C01;
       font-family: Raleway, sans-serif;
       font-size: 17px;
       font-weight: 400;
       line-height: 22px;
       text-align: left;
-
+      &_li:before{
+        content: counter(my-counter);
+        counter-increment: my-counter;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26px;
+        margin-right: 10px;
+      }
       li span {
-        display: block;
+        //display: block;
         font-family: $font-family, sans-serif;
         font-size: 17px;
         font-weight: 400;

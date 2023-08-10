@@ -46,7 +46,8 @@
   width: 100%;
 }
 .first_section_MedicalSupport_right_list {
-  list-style-type: decimal;
+  list-style-type: none;
+  counter-reset: my-counter;
   color: #019C01;
   font-family: Raleway, sans-serif;
   font-size: 17px;
@@ -54,8 +55,15 @@
   line-height: 22px;
   text-align: left;
 }
+.first_section_MedicalSupport_right_list_li:before {
+  content: counter(my-counter);
+  counter-increment: my-counter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-right: 10px;
+}
 .first_section_MedicalSupport_right_list li span {
-  display: block;
   font-family: Raleway, sans-serif;
   font-size: 17px;
   font-weight: 400;
