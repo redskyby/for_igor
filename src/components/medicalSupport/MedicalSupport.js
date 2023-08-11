@@ -412,7 +412,7 @@ function MedicalSupport() {
                         </div>
                     </div>
                     <div className="fifth_section_MedicalSupport_block">
-                        <div className="fifth_section_MedicalSupport_block_left">
+                        <div className="fifth_section_MedicalSupport_block_left fifth_section_MedicalSupport_block_left_group_imgs">
                             <img src={img16} alt="MedicalSupport"/>
                             <img src={img17} alt="MedicalSupport"/>
                         </div>

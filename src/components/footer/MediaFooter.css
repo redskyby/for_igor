@@ -1,6 +1,9 @@
 @media (max-width: 360px) {
   .footer {
-    margin-top: 100px;
+    margin-top: 40px;
+    padding-top: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px 0px rgba(169, 189, 206, 0.2509803922);
   }
   .footer_first_section {
     flex-wrap: wrap;

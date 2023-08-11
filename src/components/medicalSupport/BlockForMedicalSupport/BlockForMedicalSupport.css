@@ -8,22 +8,24 @@
   box-shadow: 0 4px 20px 0 rgba(169, 189, 206, 0.2509803922);
   color: #FFFFFF;
   max-width: 970px;
+  padding: 15px 0;
 }
 .BlockForMedicalSupport_imgs {
   max-width: 380px;
-  height: 247px;
+  height: fit-content;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
   margin: 0 15px;
+  outline: 1px solid #BDBDBD;
+  border-radius: 20px;
 }
 .BlockForMedicalSupport_imgs img {
   width: 190px;
   height: 207px;
 }
 .BlockForMedicalSupport_text {
-  margin-top: 15px;
   max-width: 760px;
   width: 77%;
 }
@@ -57,8 +59,9 @@
     padding: 0 20px;
   }
   .BlockForMedicalSupport_imgs {
-    margin-top: 10px;
+    margin-bottom: 10px;
     height: 100%;
+    flex-direction: column;
     justify-content: flex-start;
     flex-wrap: wrap;
   }

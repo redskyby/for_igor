@@ -90,15 +90,31 @@
     font-weight: 600;
     line-height: 31px;
   }
-  .fifth_section_MedicalSupport_block_left img{
-    margin: 30px auto 30px;
-    display: block;
-    max-width: 320px;
-    height: 167px;
+  .fifth_section_MedicalSupport_block_left {
+    img {
+      margin: 15px auto;
+      display: block;
+      max-width: 320px;
+    }
   }
-  .fifth_section_MedicalSupport_block_right h2{
+  .fifth_section_MedicalSupport_block_right h2 {
     font-size: 24px;
     font-weight: 600;
     line-height: 31px;
+  }
+  .align_img{
+    img{
+      margin-left: 0%;
+    }
+  }
+  .fifth_section_MedicalSupport_block_left_group_imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    img{
+      width: 150px;
+      height: 110px;
+      margin: 15px 0;
+    }
   }
 }

@@ -8,12 +8,14 @@ function BlockForMedicalSupport({data}) {
             {data.map(item => (
                 <div key={item.id} className="BlockForMedicalSupport">
                     <div className="BlockForMedicalSupport_imgs">
-                        {/*<img src={item.img} alt=""/>*/}
+
                         {
                             item.img.map( item =>
                                 <img key={item}  src={item} alt="BlockForMedicalSupport_imgs"/>
                             )
+
                         }
+
                     </div>
 
                     <div className="BlockForMedicalSupport_text">

@@ -212,7 +212,7 @@
 }
 .forth_section_MedicalSupport_first_block_left {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 .forth_section_MedicalSupport_first_block_left img {
   width: 420px;
