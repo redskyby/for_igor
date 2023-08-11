@@ -53,6 +53,7 @@
   height: auto;
   min-height: 150px;
   margin-bottom: 30px;
+  box-shadow: 0px 4px 30px 0px rgba(169, 189, 206, 0.2509803922);
 }
 .container_table_block img {
   width: 100px;
