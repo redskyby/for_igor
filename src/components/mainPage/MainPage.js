@@ -97,7 +97,7 @@ function MainPage() {
                 </div>
             </section>
             <section className="third_section_with_video">
-                <video controls="controls" poster={video}>
+                <video controls="controls" poster={video} autoFocus="false"  autoplay="false">
                     <source src="" type=""/>
                     Тег video не поддерживается вашим браузером.
                 </video>

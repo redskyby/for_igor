@@ -4,7 +4,7 @@ import Result from "./Result/Result";
 import "./Form.css"
 
 function Form() {
-    const [selectedOption, setSelectedOption] = useState('');
+    const [selectedOption, setSelectedOption] = useState('option1');
 
     const handleOptionChange = (event) => {
         setSelectedOption(event.target.value);
@@ -25,7 +25,6 @@ function Form() {
                         value="option1"
                         checked={selectedOption === 'option1'}
                         onChange={handleOptionChange}
-                        autofocus="false"
                     />
                     Отличная и интересная идея!
                 </label>
@@ -36,9 +35,8 @@ function Form() {
                         className="form_input"
                         type="radio"
                         value="option2"
-                        checked={selectedOption === 'option2'}
+                        checked={selectedOption === 'option2' }
                         onChange={handleOptionChange}
-                        autofocus="false"
                     />
                     Так себе, скучно
                 </label>
@@ -51,7 +49,6 @@ function Form() {
                         value="option3"
                         checked={selectedOption === 'option3'}
                         onChange={handleOptionChange}
-                        autofocus="false"
                     />
                     Уже такое есть
                 </label>

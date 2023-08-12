@@ -19,8 +19,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #2FD22F;
-  height: 70%;
-  width: 70%;
+  height: 75%;
+  width: 75%;
   border-radius: 50%;
   display: none;
 }
