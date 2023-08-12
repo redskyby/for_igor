@@ -41,6 +41,9 @@
     height: 726px;
     overflow: hidden;
   }
+  .second_section_contact:before {
+    height: 20%;
+  }
   .second_section_contact_left {
     width: 95%;
     margin-bottom: 40px;

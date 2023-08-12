@@ -107,6 +107,9 @@
     margin: 100px auto 0;
     height: 816px;
   }
+  .fourth_section:before {
+    height: 20%;
+  }
   .fourth_section_with_form {
     margin: 0;
   }

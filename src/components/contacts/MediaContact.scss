@@ -44,6 +44,9 @@
     padding: 40px 10px 0;
     height: 726px;
     overflow: hidden;
+    &:before{
+      height: 20%;
+    }
   }
   .second_section_contact_left{
     width: 95%;
