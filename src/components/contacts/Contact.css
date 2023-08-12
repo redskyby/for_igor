@@ -69,7 +69,7 @@
   margin-top: 90px;
   padding-top: 150px;
   width: 100%;
-  height: 550px;
+  min-height: 550px;
   background-image: url("../../utils/img/imgs_main_page/f4/banner.png");
   background-size: cover;
   position: relative;
@@ -90,11 +90,12 @@
   height: 640px;
   top: -130px;
   right: 90px;
-  z-index: 1;
+  z-index: 0;
 }
 .second_section_contact_left {
   max-width: 519px;
   width: 100%;
+  z-index: 1;
 }
 .second_section_contact_left h2 {
   font-family: Raleway, sans-serif;

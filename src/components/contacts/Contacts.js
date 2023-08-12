@@ -1,5 +1,6 @@
 import React from 'react';
-import "./Contact.css"
+import "./Contact.css";
+import "./MediaContact.css";
 import telegramm from "../../utils/img/imgs_main_page/f4/telegramm.png";
 import viber from "../../utils/img/imgs_main_page/f4/viber.png";
 import watsapp from "../../utils/img/imgs_main_page/f4/watsapp.png";
