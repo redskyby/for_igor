@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    height: max-content;
 
     &_left {
       max-width: 50%;
@@ -63,8 +64,7 @@
     &_text {
       border: 1px solid #FFFFFF;
       border-radius: 20px 0 0 20px;
-      max-height: 110px;
-      height: 100%;
+      height: 110px;
       background-color: #FFFFFF;
       margin-top: 115px;
       display: flex;
@@ -96,7 +96,6 @@
     display: flex;
     flex-direction: column;
     margin-top: 100px;
-    margin-left: 10px;
   }
 
   &_with_img {

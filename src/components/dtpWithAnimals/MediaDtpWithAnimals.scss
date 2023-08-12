@@ -1,4 +1,6 @@
-@media (max-width: 360px) {
+@import "../../utils/variables";
+
+@media (max-width: $mobile) {
   .container_dtpWithAnimal {
     margin: 30px auto 0;
     padding: 0 10px;

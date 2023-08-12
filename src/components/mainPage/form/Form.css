@@ -50,7 +50,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
   .form_button {
     margin: 0;
     padding: 11px 20px 11px 20px;

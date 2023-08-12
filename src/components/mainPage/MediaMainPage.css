@@ -1,4 +1,4 @@
-@media (max-width: 360px) {
+@media (max-width: 480px) {
   .first_section_block1_left {
     max-width: 100%;
     padding: 0px 10px;
@@ -34,6 +34,7 @@
     border: 1px solid #fff;
     border-radius: 20px;
     width: 100%;
+    position: static;
   }
   .first_section_block2_right_text:before {
     display: none;
@@ -74,6 +75,7 @@
   .second_section {
     margin: 60px auto 0;
     padding: 0px 10px;
+    height: auto;
   }
   .second_section h2 {
     font-size: 24px;
@@ -96,10 +98,10 @@
     margin: 45px auto;
   }
   .third_section_with_video {
-    margin: 600px auto 0;
+    margin: 40px auto 0;
   }
   .third_section_with_video video {
-    max-width: 360px;
+    max-width: 100%;
   }
   .fourth_section {
     margin: 100px auto 0;

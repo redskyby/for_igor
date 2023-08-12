@@ -1,4 +1,6 @@
-@media (max-width: 360px) {
+@import "../../utils/variables";
+
+@media (max-width: $mobile) {
   .menu_logo img{
     width: 96px;
     height: 90px;

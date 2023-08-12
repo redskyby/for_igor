@@ -1,4 +1,6 @@
-@media (max-width: 360px) {
+@import "../../utils/variables";
+
+@media (max-width: $mobile) {
   .first_section_block1_left {
     max-width: 100%;
     padding: 0px 10px;
@@ -35,6 +37,7 @@
     border: 1px solid #fff;
     border-radius: 20px;
     width: 100%;
+    position: static;
 
     &:before {
       display: none;
@@ -82,6 +85,7 @@
   .second_section {
     margin: 60px auto 0;
     padding: 0px 10px;
+    height: auto;
   }
 
   .second_section h2 {
@@ -106,10 +110,10 @@
     margin: 45px auto;
   }
   .third_section_with_video {
-    margin: 600px auto 0;
+    margin: 40px auto 0;
 
     video {
-      max-width: 360px;
+      max-width: 100%;
     }
   }
   .fourth_section {

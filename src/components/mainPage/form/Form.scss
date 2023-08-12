@@ -53,7 +53,9 @@
 }
 
 
-@media (max-width: 360px) {
+
+
+@media (max-width: $mobile) {
 
   .form_button{
     margin: 0;

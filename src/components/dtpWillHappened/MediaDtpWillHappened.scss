@@ -1,4 +1,6 @@
-@media (max-width: 360px) {
+@import "../../utils/variables";
+
+@media (max-width: $mobile) {
   .container{
     padding: 0 10px;
   }

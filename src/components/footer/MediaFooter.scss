@@ -1,4 +1,6 @@
-@media (max-width: 360px) {
+@import "../../utils/variables";
+
+@media (max-width: $mobile) {
   .footer{
     margin-top: 40px;
     padding-top: 30px;
@@ -45,6 +47,7 @@
 
   .footer .container_first {
     margin: 40px auto 0;
+    justify-content: center;
   }
   .footer .container_first_block {
     margin-bottom: 20px;
