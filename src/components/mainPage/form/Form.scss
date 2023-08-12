@@ -3,10 +3,33 @@
 .form{
   margin-top: 30px;
   &_input{
+    appearance: none;
     width: 24px;
     height: 24px;
+    border-radius: 50%;
+    border: 1px solid #019C01;
+    transition: 0.2s all linear;
     margin-right: 15px;
     cursor: pointer;
+    position: relative;
+    &:before{
+      content:"";
+      position : absolute;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #2FD22F;
+      height: 70%;
+      width: 70%;
+      border-radius:50%;
+      display:none
+    }
+    &:checked{
+      border: 1px solid #2FD22F;
+    }
+    &:checked:before{
+      display: block;
+    }
   }
   &_label{
     color: #FFFFFF;
