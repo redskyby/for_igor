@@ -238,6 +238,9 @@
   width: 100%;
   margin: 100px auto 0;
   overflow: hidden;
+  video{
+    width: 100%;
+  }
 }
 
 
@@ -432,7 +435,7 @@
       &:hover {
         background: #019C01;
         color: #FFFFFF;
-        transition: background, color 0.9s ease;
+        transition: all 0.9s ease;
       }
     }
   }

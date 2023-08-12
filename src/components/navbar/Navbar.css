@@ -24,6 +24,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  box-shadow: 0px 4px 30px 0px rgba(169, 189, 206, 0.2509803922);
 }
 .menu_header_link {
   text-decoration: none;

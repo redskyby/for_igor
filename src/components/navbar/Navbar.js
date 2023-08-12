@@ -9,8 +9,6 @@ import Mobile_close from "../../utils/img/img_navBar/align_right.png";
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
-
-
     return (
         <nav className="menu" onClick={()=>setIsOpen(false)}>
             <div className="menu_logo" >

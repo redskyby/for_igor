@@ -206,6 +206,9 @@
   margin: 100px auto 0;
   overflow: hidden;
 }
+.third_section_with_video video {
+  width: 100%;
+}
 
 .fourth_section {
   max-width: 1920px;
@@ -378,7 +381,7 @@
 .fifth_section_card a:hover {
   background: #019C01;
   color: #FFFFFF;
-  transition: background, color 0.9s ease;
+  transition: all 0.9s ease;
 }
 
 /*# sourceMappingURL=MainPage.css.map */

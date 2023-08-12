@@ -9,6 +9,7 @@ import MedicalSupport from "./medicalSupport/MedicalSupport";
 import DtpWithAnimals from "./dtpWithAnimals/DtpWithAnimals";
 import Contacts from "./contacts/Contacts";
 import "./App.css"
+import ButtonUp from "../utils/buttonUp/ButtonUp";
 function App() {
     return (
         <BrowserRouter>
@@ -22,6 +23,7 @@ function App() {
                     <Route path="/contacts" element={<Contacts/>}/>
                 </Routes>
                 <Footer/>
+                <ButtonUp/>
             </div>
         </BrowserRouter>
 
