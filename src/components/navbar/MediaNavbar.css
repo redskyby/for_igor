@@ -48,6 +48,7 @@
     transform: translateX(-20px);
     background-attachment: fixed;
     padding: 0 20px;
+    z-index: 10;
   }
   .blur_mobile_nav {
     width: 130vw;

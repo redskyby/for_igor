@@ -51,6 +51,7 @@
   }
   .second_section_contact_block{
     flex-direction: column;
+    justify-content: flex-start;
   }
   .second_section_contact_right{
     margin-right: 0;
@@ -59,11 +60,16 @@
     width: 329px;
     height: 497px;
     background-size: contain;
-    top: 87%;
-    right: -7%;
+    transform: translate(50%, -80%);
+    top: 100%;
+    right: 50%;
   }
   .second_section_contact_right_with_link_and_text{
-    bottom: -96%;
+    width: 100%;
+    min-width: 243px;
+    right: 50%;
+    bottom: 6%;
+    transform: translate(50%, 0);
     z-index: 1;
   }
 }

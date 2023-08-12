@@ -1,5 +1,6 @@
 .containerContact {
   max-width: 1290px;
+  height: 100%;
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -70,9 +71,9 @@
   padding-top: 150px;
   width: 100%;
   min-height: 550px;
+  height: 100%;
   background-image: url("../../utils/img/imgs_main_page/f4/banner.png");
   background-size: cover;
-  position: relative;
 }
 .second_section_contact_block {
   width: 100%;
