@@ -10,9 +10,13 @@
     width: 50%;
     padding: 10px;
   }
+  tr{
+    height: 100%;
+  }
   td{
     border-bottom: 1px solid #EEEEEE;
     padding: 10px;
+    height: 100%;
   }
 
   &_align_text_center{
@@ -21,6 +25,10 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
   }
   &_align_text_left{
     text-align: left;
@@ -53,3 +61,24 @@
 .table_header{
   border-bottom: 2px solid #6C6C6C;
 }
+@media (max-width: $mobile) {
+  .table{
+    border-radius: 0;
+    background-color: #F8F8F8;
+  }
+  .table th{
+    padding: 0;
+  }
+  .table_header{
+    border-bottom: 1px solid #EEEEEE;
+  }
+  .price{
+    width: 13%;
+  }
+
+}
+
+//display: flex;
+//flex-direction: column;
+//justify-content: center;
+//align-items: center;

@@ -20,7 +20,7 @@ import Image2 from "../../utils/img/img_dtpWillHappened/image49.png";
 function DtpWillHappened() {
     return (
         <div>
-            <section className="first_section">
+            <section className="first_section_DtpWillHappened">
                 <div className="container">
                     <h1 className="container_title">Что делать после ДТП</h1>
                     <div className="container_table">
@@ -134,18 +134,15 @@ function DtpWillHappened() {
                     <div className="second_section_dttWillHappened_row">
                         <div className="second_section_dttWillHappened_row_block">
                             <p className="second_section_dttWillHappened_row_block_number">112</p>
-                            <p className="second_section_dttWillHappened_row_block_text">Для вызова с мобильного
-                                телефона воспользуйтесь одним из этих номеров</p>
+                            <p className="second_section_dttWillHappened_row_block_text">Номер работает, даже когда на счёту закончились деньги или сим-карта заблокирована</p>
                         </div>
                         <div className="second_section_dttWillHappened_row_block">
                             <p className="second_section_dttWillHappened_row_block_number">02</p>
-                            <p className="second_section_dttWillHappened_row_block_text">Для вызова с мобильного
-                                телефона воспользуйтесь одним из этих номеров</p>
+                            <p className="second_section_dttWillHappened_row_block_text">Для набора номера с мобильного телефона надо набрать +8 — код города — 02</p>
                         </div>
                         <div className="second_section_dttWillHappened_row_block">
-                            <p className="second_section_dttWillHappened_row_block_number">112</p>
-                            <p className="second_section_dttWillHappened_row_block_text">Для вызова с мобильного
-                                телефона воспользуйтесь одним из этих номеров</p>
+                            <p className="second_section_dttWillHappened_row_block_number">102</p>
+                            <p className="second_section_dttWillHappened_row_block_text">В России уже начался переход на трехзначные номера экстренных служб (уже действует в Украине, Белоруси и Казахстане)</p>
                         </div>
                     </div>
                     <div className="second_section_dttWillHappened_second_block">

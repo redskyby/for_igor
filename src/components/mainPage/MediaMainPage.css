@@ -1,4 +1,7 @@
 @media (max-width: 480px) {
+  .first_section {
+    margin: 0px;
+  }
   .first_section_block1_left {
     max-width: 100%;
     padding: 0px 10px;
@@ -6,9 +9,10 @@
   .first_section_block1_left h1 {
     font-size: 28px;
     line-height: 36.4px;
+    margin-top: 0px;
   }
   .first_section_block1_left h2 {
-    margin-top: 30px;
+    margin-top: 10px;
   }
   .first_section_block1_left p {
     margin-left: 0px;
@@ -76,11 +80,13 @@
     margin: 60px auto 0;
     padding: 0px 10px;
     height: auto;
+    border-radius: 0;
   }
   .second_section h2 {
     font-size: 24px;
     text-align: left;
     line-height: 31px;
+    margin-top: 50px;
   }
   .second_section_with_img {
     flex-wrap: wrap;
@@ -91,14 +97,20 @@
     margin-bottom: 10px;
   }
   .second_section_with_text {
-    margin-top: 25px;
+    margin-top: 10px;
+  }
+  .second_section_with_text p {
+    margin-bottom: 10px;
   }
   .second_section_with_button {
     width: 50%;
-    margin: 45px auto;
+    margin: 25px auto;
+  }
+  .second_section_with_disciple_button {
+    margin-bottom: 60px;
   }
   .third_section_with_video {
-    margin: 40px auto 0;
+    margin: 50px auto 0;
   }
   .third_section_with_video video {
     max-width: 100%;

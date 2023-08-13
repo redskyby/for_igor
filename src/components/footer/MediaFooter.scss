@@ -3,7 +3,7 @@
 @media (max-width: $mobile) {
   .footer{
     margin-top: 40px;
-    padding-top: 30px;
+    padding-top: 50px;
     background-color: #FFFFFF;
     box-shadow: 0px 4px 30px 0px #A9BDCE40;
   }
@@ -27,6 +27,20 @@
 
   .footer_first_section_with_text_and_button {
     margin: 20px auto;
+    h2{
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 31px;
+      letter-spacing: 0em;
+      text-align: left;
+      span{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
   }
   .footer_first_section_with_text_img{
     display: none;
@@ -39,7 +53,9 @@
   .footer_first_section_with_img{
     margin: 0;
   }
-
+  .footer_first_section_with_text{
+    margin-bottom: 15px;
+  }
   .footer_second_section {
     margin: 0;
     padding: 0 10px;
@@ -55,6 +71,10 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    height: 100%;
+    min-height: 127px;
+    max-height: 148px;
+    padding: 20px 0;
   }
   .footer .container_first_block_text_p{
     font-size: 14px;
@@ -63,6 +83,7 @@
     letter-spacing: 0em;
     text-align: center;
   }
+
   .footer .container_first_block_text{
     margin-top: 0;
   }
@@ -76,9 +97,6 @@
   }
   .footer .container_second_text p {
     text-align: center;
-  }
-  .footer .container_first_block_text_p {
-    line-height: 25px;
   }
   .footer .container_second {
     margin: 20px auto 30px;

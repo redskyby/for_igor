@@ -1,11 +1,11 @@
 @media (max-width: 480px) {
   .container_dtpWithAnimal {
-    margin: 30px auto 0;
+    margin: 0 auto 0;
     padding: 0 10px;
   }
   .container_dtpWithAnimal_main_title {
     font-size: 28px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     line-height: 36px;
   }
   .container_dtpWithAnimal_third_title {
@@ -13,7 +13,7 @@
     line-height: 21px;
   }
   .first_section_dtpWithAnimal_left_list {
-    margin-left: 18px;
+    margin-left: 0;
     margin-bottom: 30px;
   }
   .first_section_dtpWithAnimal_right {
@@ -32,12 +32,13 @@
   }
   .first_section_dtpWithAnimal_right_block {
     border-radius: 20px;
+    margin-top: 20px;
   }
   .second_section_dtpWithAnimal {
     border-radius: 0px;
   }
   .second_section_dtpWithAnimal_right_block {
-    margin-top: 30px;
+    margin-top: 50px;
     align-items: normal;
     width: auto;
   }
@@ -46,7 +47,7 @@
     margin-bottom: 10px;
   }
   .second_section_dtpWithAnimal_left_block {
-    margin-top: 30px;
+    margin-top: 20px;
   }
   .container_dtpWithAnimal_second_title {
     font-size: 24px;
@@ -66,14 +67,26 @@
   .third_section_dtpWithAnimal_right img {
     margin-bottom: 15px;
   }
+  .third_section_dtpWithAnimal_left {
+    margin-top: 50px;
+  }
+  .forth_section_dtpWithAnimal {
+    margin-top: 80px;
+  }
   .forth_section_dtpWithAnimal_main_title {
     max-width: 100%;
+  }
+  .forth_section_dtpWithAnimal_with_tables {
+    background-color: #F8F8F8;
+    border: 1px solid #F8F8F8;
+    box-shadow: none;
+    padding: 0;
   }
   .for_mobile thead {
     display: none;
   }
   .for_mobile .table_align_text_left {
-    width: 67%;
+    width: auto;
   }
 }
 

@@ -3,6 +3,7 @@
 @media (max-width: $mobile) {
   .first_section_MedicalSupport {
     padding: 0 10px;
+    margin-top: 0;
   }
   .first_section_MedicalSupport_left_text h1 {
     font-size: 28px;
@@ -20,9 +21,10 @@
   .first_section_MedicalSupport_left_imgs {
     margin-top: 30px;
     align-items: center;
+    margin-bottom: 20px;
 
     img {
-      margin-bottom: 15px;
+      margin-bottom: 10px;
     }
   }
   .first_section_MedicalSupport_right_list li {
@@ -31,7 +33,7 @@
   .second_section_MedicalSupport{
     margin-top: 30px;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
   }
   .containerForMedicalSupport{
     padding: 0 10px;
@@ -42,7 +44,7 @@
     line-height: 31px;
     letter-spacing: 0em;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
   .third_section_ForMedicalSupport{
     margin-top: 30px;
@@ -68,6 +70,9 @@
     height: 122px;
     margin-bottom: 15px;
   }
+  .forth_section_MedicalSupport_first_block_right{
+    margin-top: 30px;
+  }
   .forth_section_MedicalSupport_first_block_right h2{
     font-size: 24px;
     font-weight: 600;
@@ -81,12 +86,14 @@
   .forth_section_MedicalSupport_second_block_right_second {
     margin-top: 30px;
   }
-
+  .forth_section_MedicalSupport_second_block_right p span, .forth_section_MedicalSupport_second_block_right h4 span{
+    margin-top: 10px;
+  }
   .forth_section_MedicalSupport_second_block_right {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   .fifth_section_MedicalSupport{
-    margin-top: 40px;
+    margin-top: 50px;
   }
   .fifth_section_MedicalSupport_block_left h2{
     font-size: 24px;
@@ -95,7 +102,7 @@
   }
   .fifth_section_MedicalSupport_block_left {
     img {
-      margin: 15px auto;
+      margin: 10px auto;
       display: block;
       max-width: 320px;
     }
