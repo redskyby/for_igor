@@ -46,6 +46,20 @@
   }
   .footer .container_first_block {
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .footer .container_first_block_text_p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .footer .container_first_block_text {
+    margin-top: 0;
   }
   .footer .container_second_links {
     display: none;
