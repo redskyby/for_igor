@@ -14,7 +14,7 @@
   box-shadow: 0px 4px 30px 0px rgba(233, 233, 233, 0.2509803922);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1130px) {
   .scroll-to-top-button.visible {
     display: flex;
     flex-direction: row;
