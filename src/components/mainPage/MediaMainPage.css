@@ -190,5 +190,198 @@
     height: 80px;
   }
 }
+@media (max-width: 960px) and (min-width: 481px) {
+  .first_section {
+    margin: 0px;
+  }
+  .first_section_block1_left {
+    max-width: 100%;
+    padding: 0px 10px;
+  }
+  .first_section_block1_left h1 {
+    font-size: 28px;
+    line-height: 36.4px;
+    margin-top: 0px;
+  }
+  .first_section_block1_left h2 {
+    margin-top: 10px;
+  }
+  .first_section_block1_left p {
+    margin-left: 0px;
+  }
+  .first_section_block2_right h2 {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  .first_section_block2_right {
+    max-width: 100%;
+    padding: 0px 10px;
+  }
+  .first_section_block2_right_text {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  .first_section_block2_right_text p {
+    margin-left: 10px;
+  }
+  .first_section_block2_right_text {
+    margin-top: 30px;
+    margin-left: 0px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    width: 100%;
+    position: static;
+  }
+  .first_section_block2_right_text:before {
+    display: none;
+  }
+  .first_section_with_img_and_button {
+    margin-left: 0;
+    margin-top: 50px;
+  }
+  .first_section_with_img {
+    align-items: initial;
+  }
+  .first_section_with_img img {
+    background-size: cover;
+    max-width: 150px;
+    height: auto;
+    max-height: 127px;
+  }
+  .first_section_img_block {
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .first_section_with_img {
+    height: 316px;
+  }
+  .first_section_with_button {
+    margin: 20px auto 0;
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .first_section_with_button .button {
+    width: 100%;
+  }
+  .button {
+    width: 100%;
+  }
+  .second_section {
+    margin: 60px auto 0;
+    padding: 0px 10px;
+    height: auto;
+    border-radius: 0;
+  }
+  .second_section h2 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 31px;
+    margin-top: 50px;
+  }
+  .second_section_with_img {
+    flex-wrap: wrap;
+  }
+  .second_section_with_img img {
+    max-width: 320px;
+    max-height: 219px;
+    margin-bottom: 10px;
+  }
+  .second_section_with_text {
+    margin-top: 10px;
+  }
+  .second_section_with_text p {
+    margin-bottom: 10px;
+  }
+  .second_section_with_button {
+    width: 50%;
+    margin: 25px auto;
+  }
+  .second_section_with_disciple_button {
+    margin-bottom: 60px;
+  }
+  .third_section_with_video {
+    margin: 50px auto 0;
+  }
+  .third_section_with_video video {
+    max-width: 100%;
+  }
+  .fourth_section {
+    margin: 100px auto 0;
+    height: 816px;
+  }
+  .fourth_section:before {
+    height: 20%;
+  }
+  .fourth_section_with_form {
+    margin: 0;
+  }
+  .fourth_section {
+    padding-top: 50px;
+  }
+  .fourth_section .container {
+    flex-direction: column;
+    padding: 0 10px;
+    margin: 0 auto;
+    justify-content: flex-start;
+  }
+  .fourth_section .container_with_foto {
+    max-width: 329px;
+    max-height: 492px;
+    width: 100%;
+    height: 100%;
+    right: 50%;
+    transform: translate(50%, 0);
+    z-index: 1;
+    top: 50%;
+    background-size: contain;
+  }
+  .button {
+    padding: 11px 20px;
+    width: auto;
+  }
+  .fourth_section_with_form h1 {
+    font-size: 24px;
+  }
+  .fourth_section_with_text_bottom_with_links {
+    max-width: 253px;
+  }
+  .fourth_section_with_text_bottom {
+    width: 100%;
+    max-width: 245px;
+    right: 50%;
+    bottom: 3%;
+    transform: translate(50%, 0);
+  }
+  .fourth_section_with_text {
+    margin-right: 0px;
+    margin-top: 30px;
+    position: static;
+  }
+  .fifth_section {
+    margin: 100px auto 0;
+    padding: 0 10px;
+  }
+  .fifth_section h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .fifth_section_with_cards {
+    margin-top: 30px;
+    justify-content: space-around;
+  }
+  .fifth_section_card {
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  .fifth_section_card:nth-child(2n) {
+    margin-top: 0px;
+  }
+  .fifth_section_card img {
+    width: 90px;
+    height: 80px;
+  }
+}
 
 /*# sourceMappingURL=MediaMainPage.css.map */

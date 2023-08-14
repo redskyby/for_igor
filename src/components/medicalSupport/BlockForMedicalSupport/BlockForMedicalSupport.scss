@@ -69,3 +69,19 @@
     flex-wrap: wrap;
   }
 }
+@media (max-width: $tablet-max) and (min-width: $tablet-min) {
+  .BlockForMedicalSupport {
+    flex-wrap: wrap;
+  }
+  .BlockForMedicalSupport_text {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .BlockForMedicalSupport_imgs {
+    margin-bottom: 10px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}

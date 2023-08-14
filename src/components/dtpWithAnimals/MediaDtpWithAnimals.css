@@ -89,5 +89,105 @@
     width: auto;
   }
 }
+@media (max-width: 960px) and (min-width: 481px) {
+  .container_dtpWithAnimal {
+    margin: 0 auto 0;
+    padding: 0 10px;
+  }
+  .container_dtpWithAnimal_main_title {
+    font-size: 28px;
+    margin-bottom: 25px;
+    line-height: 36px;
+  }
+  .container_dtpWithAnimal_third_title {
+    font-size: 17px;
+    line-height: 21px;
+  }
+  .first_section_dtpWithAnimal_left, .first_section_dtpWithAnimal_right {
+    max-width: 100%;
+  }
+  .first_section_dtpWithAnimal_right {
+    align-items: center;
+  }
+  .first_section_dtpWithAnimal_left_list {
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+  .first_section_dtpWithAnimal_right {
+    margin-bottom: 30px;
+  }
+  .first_section_dtpWithAnimal_right_first_img {
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .first_section_dtpWithAnimal_right_second_img {
+    margin-bottom: 10px;
+  }
+  .first_section_dtpWithAnimal_right_block::after {
+    display: none;
+  }
+  .first_section_dtpWithAnimal_right_block {
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .second_section_dtpWithAnimal {
+    border-radius: 0px;
+  }
+  .second_section_dtpWithAnimal_right_block {
+    margin-top: 50px;
+    align-items: normal;
+    width: auto;
+  }
+  .second_section_dtpWithAnimal_right_block img {
+    max-width: 320px;
+    margin-bottom: 10px;
+  }
+  .second_section_dtpWithAnimal_left_block {
+    margin-top: 20px;
+  }
+  .container_dtpWithAnimal_second_title {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .second_section_dtpWithAnimal_left_block_text {
+    margin-top: 30px;
+  }
+  .third_section_dtpWithAnimal_left_text_bottom_block {
+    padding: 15px 20px 15px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .third_section_dtpWithAnimal_right {
+    align-items: inherit;
+  }
+  .third_section_dtpWithAnimal_right img {
+    margin-bottom: 15px;
+  }
+  .third_section_dtpWithAnimal_left {
+    margin-top: 50px;
+  }
+  .forth_section_dtpWithAnimal {
+    margin-top: 80px;
+  }
+  .forth_section_dtpWithAnimal_main_title {
+    max-width: 100%;
+  }
+  .forth_section_dtpWithAnimal_with_tables {
+    background-color: #F8F8F8;
+    border: 1px solid #F8F8F8;
+    box-shadow: none;
+    padding: 0;
+  }
+  .forth_section_dtpWithAnimal_with_table {
+    margin: 0 auto;
+  }
+  .for_mobile thead {
+    display: none;
+  }
+  .for_mobile .table_align_text_left {
+    width: auto;
+  }
+}
 
 /*# sourceMappingURL=MediaDtpWithAnimals.css.map */

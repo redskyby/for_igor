@@ -15,6 +15,7 @@
   margin: 0 auto;
   max-height: 400px;
   height: 100%;
+  width: 100%;
 }
 .footer_first_section:before {
   content: "";
