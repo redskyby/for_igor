@@ -190,7 +190,7 @@
     height: 80px;
   }
 }
-@media (max-width: 1130px) and (min-width: 481px) {
+@media (max-width: 1200px) and (min-width: 481px) {
   .first_section {
     margin: 0px;
   }

@@ -74,7 +74,7 @@
     z-index: 1;
   }
 }
-@media (max-width: 1130px) and (min-width: 481px) {
+@media (max-width: 1200px) and (min-width: 481px) {
   .first_section_contact {
     border-radius: 0;
     margin-top: 20px;

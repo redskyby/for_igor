@@ -102,7 +102,7 @@
     margin: 0 auto 20px;
   }
 }
-@media (max-width: 1130px) and (min-width: 481px) {
+@media (max-width: 1200px) and (min-width: 481px) {
   .footer {
     margin-top: 40px;
     padding-top: 50px;

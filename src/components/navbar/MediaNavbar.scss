@@ -69,7 +69,9 @@
   }
 }
 
-@media (max-width: $tablet-max) and (min-width: $tablet-min ) {
+
+
+@media (max-width: $first_break_point_for_navbar) and (min-width: $tablet-min ) {
   .menu_logo img{
     width: 96px;
     height: 90px;
