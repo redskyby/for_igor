@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import "./Navbar.css";
 import "./MediaNavbar.css";
 import {NavLink} from "react-router-dom";
@@ -8,6 +8,16 @@ import Mobile_close from "../../utils/img/img_navBar/align_right.png";
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
+
+    useEffect(()=>{
+        if(isOpen){
+            document.body.style.overflow = 'hidden';
+            document.body.style.position = 'fixed';
+        }else{
+            document.body.style.overflow = '';
+            document.body.style.position = '';
+        }
+    }, [isOpen]);
 
     return (
         <nav className="menu" onClick={()=>setIsOpen(false)}>
