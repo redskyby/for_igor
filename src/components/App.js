@@ -13,6 +13,8 @@ import "./App.css"
 import ButtonUp from "../utils/buttonUp/ButtonUp";
 function App() {
     return (
+        // Добавил   <HashRouter>\
+        // и теперь нет ошибки 404 при перезагрузке
         <HashRouter>
             <div className="app">
                 <Navbar/>
