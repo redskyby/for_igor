@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {BrowserRouter, Route, Routes , HashRouter} from "react-router-dom";
 import Navbar from "./navbar/Navbar";
 import Footer from "./footer/Footer";
 import MainPage from "./mainPage/MainPage";
@@ -12,7 +12,7 @@ import "./App.css"
 import ButtonUp from "../utils/buttonUp/ButtonUp";
 function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <div className="app">
                 <Navbar/>
                 <Routes>
@@ -25,7 +25,7 @@ function App() {
                 <Footer/>
                 <ButtonUp/>
             </div>
-        </BrowserRouter>
+        </HashRouter>
 
     );
 }
