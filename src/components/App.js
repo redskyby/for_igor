@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
-import {BrowserRouter, Route, Routes , HashRouter} from "react-router-dom";
+import { Route, Routes , HashRouter} from "react-router-dom";
+// import {BrowserRouter, Route, Routes , HashRouter} from "react-router-dom";
 import Navbar from "./navbar/Navbar";
 import Footer from "./footer/Footer";
 import MainPage from "./mainPage/MainPage";
